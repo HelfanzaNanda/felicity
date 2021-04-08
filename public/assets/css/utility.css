@@ -20,6 +20,9 @@
 .font-size-40{
     font-size: 40px;
 }
+.font-size-45{
+    font-size: 45px;
+}
 .font-size-50{
     font-size: 50px;
 }
@@ -74,13 +77,19 @@
 .margin-right-24 {
     margin-right: 24px;
 }
+.margin-left-48 {
+    margin-left: 48px;
+}
 
 /* padding */
 .padding-48{
-    padding: 49px;
+    padding: 48px;
 }
 .padding-top-32{
     padding-top: 32px;
+}
+.padding-top-80{
+    padding-top: 80px;
 }
 .padding-top-84{
     padding-top: 84px;

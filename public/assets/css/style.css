@@ -6,7 +6,7 @@ body{
 
 .bg-gradient-blue-to-dark-blue{
     background: url("/images/bg-gradient-blue-to-dark-blue.png");
-} 
+}
 
 .header-landing-page{
     overflow-x: hidden;
@@ -61,3 +61,153 @@ body{
 .banner-section{
     padding-bottom: 146px;
 }
+/* Start Our Work */
+.our-work{
+    padding-top: 146px;
+    font-size: 50px;
+    color: #fff;
+}
+.circle1-work{
+    width: 420px;
+    height: 420px;
+    background: #FFC300;
+    border-radius: 240px;
+    margin-top: 80px;
+}
+.circle2-work{
+    width: 420px;
+    height: 420px;
+    background: #6859DE;
+    border-radius: 240px;
+    margin-top: 80px;
+}
+.img-our-work{
+    margin-top: 39px;
+    margin-left: 130px;
+    margin-right: 131px;
+    margin-bottom: 41px;
+}
+.title-desc-our-work{
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fff;
+}
+.title2-desc-our-work{
+    font-size: 22px;
+    margin-top: 17px;
+    color: #fff;
+}
+.desc-our-work{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C4C4C4;
+    margin-top: 24px;
+    text-align: justify;
+}
+.find-more{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* border-bottom: 1px solid #fff; */
+}
+.border-find{
+    margin-top: 5px;
+    width: 135px;
+    position: absolute;
+
+    border: 1px solid #FFFFFF;
+}
+/* End Our Work */
+
+/* Start Insights*/
+.insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.img-insights{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.title-insights{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 40px;
+    color: #FFFFFF;
+}
+.emoji-hand{
+    width: 24px;
+    height: 24px;
+}
+.emoji-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 9.5px;
+    margin-right: 34px;
+    color: #E8E7E7;
+}
+/* End Insights*/
+
+/* Start Footer*/
+footer{
+    margin-top: 658px;
+    background: #1A1A1A;
+    width: auto;
+    height: auto;
+    color: #fff;
+}
+.title-footer{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110%;
+    padding-top: 80px;
+    padding-left: 165px;
+}
+.email-footer{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 110%;
+    text-decoration-line: underline;
+    padding-top: 40px;
+    padding-left: 165px;
+}
+.address-footer{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    width: 400px;
+    line-height: 140%;
+    padding-top: 80px;
+    padding-left: 165px;
+    padding-bottom: 124px;
+}
+.menu-footer{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration-line: underline;
+    padding-top: 80px;
+}
+/* End Footer*/
