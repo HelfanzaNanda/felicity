@@ -10,14 +10,15 @@
                 <div><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
                 <div><img src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44"></div>
             </div>
-            <div class="title-study-page">Latest Blogspot</div>
-            <img src="{{ asset('images/insights/cover-insights.png') }}" alt="">
+            <div class="title-study-page">Latest Blogspots</div>
         </div>
     </div>
 
     <div class="bg-dark-blue padding-top-84">
         <div class="container-main">
-
+            <div class="margin-top-n-280 margin-bottom-48">
+                <img src="{{ asset('images/insights/cover-insights.png') }}" width="100%" height="450">
+            </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="title-insights-page">
