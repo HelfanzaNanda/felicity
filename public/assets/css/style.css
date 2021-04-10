@@ -132,7 +132,6 @@ body{
     margin-top: 5px;
     width: 135px;
     position: absolute;
-
     border: 1px solid #FFFFFF;
 }
 /* End Our Work */
@@ -350,5 +349,11 @@ height: auto;
     text-transform: lowercase;
     color: #FFFFFF;
     padding-top: 140px;
+}
+.header-white{
+    position: absolute;
+    width: 1349px;
+    height: 124px;
+    background: #FFFFFF;
 }
 /* End Insights Page */
