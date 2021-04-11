@@ -524,6 +524,62 @@ footer{
 }
 /* End Careers Page */
 
+/* Start Privacy Policy Page */
+.title-header-privacy-policy{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 110%;
+    text-align: center;
+    color: #1A1A1A;
+    padding-top: 112px;
+}
+.updated-at-privacy{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1A1A1A;
+    padding-top: 112px;
+    margin-left: 65px;
+}
+.title-desc-privacy{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #2D3748;
+    margin-left: 66px;
+}
+.desc-privacy{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #b1b1b1;
+    padding-top: 15px;
+    margin-left: 66px;
+    margin-right: 66px;
+}
+/* End Privacy Policy Page */
+
+/* Start Terms and Conditions */
+.title-header-terms{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 112px;
+}
+/* End Terms and Conditions */
+
 .form-input{
     width: 100%;
     display: block;

@@ -176,6 +176,9 @@
 .padding-bottom-142{
     padding-bottom: 142px;
 }
+.padding-bottom-866{
+    padding-bottom: 866px;
+}
 
 /* container main */
 .container-main{
@@ -191,6 +194,9 @@
 }
 .bg-yellow{
     background: #FFC300;
+}
+.bg-blue{
+    background: #1E88E5;
 }
 
 /* color text */
