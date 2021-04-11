@@ -15,6 +15,16 @@ body{
 .bg-gradient-blue-to-dark-blue{
     background: url("/images/bg-gradient-blue-to-dark-blue.png");
 }
+.bg-header-blue{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+}
+.image-header{
+    overflow-x: hidden;
+    position: relative;
+
+}
 
 .header-landing-page{
     overflow-x: hidden;
