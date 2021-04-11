@@ -9,3 +9,4 @@ Route::view('/insights/list', 'insights.index');
 Route::view('/insights/detail', 'insights.detail');
 Route::view('/contact', 'contact.index');
 Route::view('/capabilities', 'capabilities.index');
+Route::view('/careers', 'careers.index');

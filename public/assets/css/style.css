@@ -359,8 +359,170 @@ footer{
     height: 124px;
     background: #FFFFFF;
 }
+.title1-detail-insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #202020;
+    padding-top: 80px;
+    margin-left: 65px;
+    margin-bottom: 55px;
+}
+.card-detail-insights{
+    background: #fff;
+}
+.creator-name{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #202020;
+    padding-top: 24px;
+    margin-left: 65px;
+}
+.created-at-detail{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #202020;
+    padding-top: 24px;
+}
+.line-detail{
+    padding-left: 65px;
+    border-top: none;
+    border-bottom: 1px solid #E8E7E7;
+    width: 790px;
+}
+.desc-detail-insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+    margin-left: 65px;
+}
+.title2-detail-insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #202020;
+    margin-left: 65px;
+}
+.title3-detail-insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #202020;
+    margin-left: 65px;
+}
+.title4-detail-insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    padding-top: 16px;
+}
+.title5-detail-insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #202020;
+    margin-left: 65px;
+}
+.date-detail-insights{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #202020;
+    padding-top: 16px;
+    margin-left: 20px;
+}
 /* End Insights Page */
 
+/* Start Careers Page */
+.title-header-careers{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 110%;
+    text-align: center;
+    color: #1A1A1A;
+}
+.text-label-careers{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #C4C4C4;
+}
+.text-date{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.desc-careers{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.title-careers{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.text-departements{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+.line-vertical{
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: 1px solid #E8E7E7;
+    height: 1000px;
+}
+.text-company{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+/* End Careers Page */
 
 .form-input{
     width: 100%;
