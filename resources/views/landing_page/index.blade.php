@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="bg-dark-blue padding-top-84">
+    <div class="bg-dark-blue padding-top-84 padding-bottom-84">
         <div class="container-main">
             <div class="hero-section">
                 <div class="d-flex justify-content-between margin-bottom-144">
@@ -266,31 +266,30 @@
             </div>
             <!-- End Insights -->
         </div>
-        <!-- Start Footer -->
-        <footer>
-            <div class="title-footer">Let's Talk</div>
-            <div class="email-footer">hello@felicitymedia.in</div>
+    </div>
+
+    <div class="height-500 bg-footer">
+        <div class="container-main">
+            <div class="margin-bottom-40 padding-top-80 text-white font-size-72 font-kollektif font-weight-700">Let’s Talk</div>
+            <div class="font-kollektif font-size-32 text-white margin-bottom-80"><u>hello@felicitymedia.in </u></div>
+            <div class="d-flex">
+                <div class="text-white font-kollektif margin-right-auto font-size-22">300 Broadway, Suite 23 <br>
+                    San Francisco, CA 94133</div>
                 <div class="row">
-                    <div class="col-lg-8 col-md-8">
-                        <div class="address-footer">300 Broadway, Suite 23 San Francisco, CA 94133</div>
+                    <div class="margin-right-52">
+                        <a href="" class="d-block text-white font-kollektif font-size-16">Case studies</a>
+                        <a href="" class="d-block text-white font-kollektif font-size-16">Process</a>
+                        <a href="" class="d-block text-white font-kollektif font-size-16">Philosophy</a>
                     </div>
-                    <div class="col-lg-1 col-md-1">
-                        <div class="menu-footer">
-                            <a href="#" class="text-white">Case Studies</a>
-                            <a href="#" class="text-white">Process</a>
-                            <a href="#" class="text-white">Philosophy</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-1 col-md-1">
-                        <div class="menu-footer">
-                            <a href="#" class="text-white">Capabilities</a>
-                            <a href="#" class="text-white">Insights</a>
-                            <a href="#" class="text-white">Opportunity</a>
-                        </div>
+                    <div>
+                        <a href="" class="d-block text-white font-kollektif font-size-16">Capabilities</a>
+                        <a href="" class="d-block text-white font-kollektif font-size-16">Insights</a>
+                        <a href="" class="d-block text-white font-kollektif font-size-16">Opportunity</a>
                     </div>
                 </div>
-        </footer>
-        <!-- End Footer -->
+            </div>
+            
+        </div>
     </div>
 
 @endsection

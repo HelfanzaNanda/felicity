@@ -1,10 +1,6 @@
 @extends('layouts.app')
 @section('content')
 <div class="header-landing-page bg-white">
-    <div class="wafe-1">
-        <img src="{{ asset('images/wafe1.png') }}" alt="">
-    </div>
-    <div class="wafe-2"></div>
     <div class="margin-x-196 padding-top-32 margin-bottom-178">
         <div class="d-flex justify-content-between margin-bottom-112">
             <div><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
@@ -14,7 +10,7 @@
     </div>
 </div>
 
-<div class="heigth-1866 bg-dark-blue">
+<div class="bg-dark-blue margin-bottom-84">
     <div class="container-main padding-top-80">
         <div class="service-section">
             <div class="d-flex justify-content-between">
@@ -47,6 +43,30 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="height-500 bg-footer">
+    <div class="container-main">
+        <div class="margin-bottom-40 padding-top-80 text-white font-size-72 font-kollektif font-weight-700">Let’s Talk</div>
+        <div class="font-kollektif font-size-32 text-white margin-bottom-80"><u>hello@felicitymedia.in </u></div>
+        <div class="d-flex">
+            <div class="text-white font-kollektif margin-right-auto font-size-22">300 Broadway, Suite 23 <br>
+                San Francisco, CA 94133</div>
+            <div class="row">
+                <div class="margin-right-52">
+                    <a href="" class="d-block text-white font-kollektif font-size-16">Case studies</a>
+                    <a href="" class="d-block text-white font-kollektif font-size-16">Process</a>
+                    <a href="" class="d-block text-white font-kollektif font-size-16">Philosophy</a>
+                </div>
+                <div>
+                    <a href="" class="d-block text-white font-kollektif font-size-16">Capabilities</a>
+                    <a href="" class="d-block text-white font-kollektif font-size-16">Insights</a>
+                    <a href="" class="d-block text-white font-kollektif font-size-16">Opportunity</a>
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
 @endsection

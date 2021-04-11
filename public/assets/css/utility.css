@@ -12,6 +12,9 @@
 .font-weight-500{
     font-weight: 500;
 }
+.font-weight-600{
+    font-weight: 600;
+}
 
 /* font size */
 .font-size-14{
@@ -32,6 +35,9 @@
 .font-size-28{
     font-size: 28px;
 }
+.font-size-32{
+    font-size: 32px;
+}
 .font-size-40{
     font-size: 40px;
 }
@@ -41,6 +47,12 @@
 .font-size-50{
     font-size: 50px;
 }
+.font-size-72{
+    font-size: 72px;
+}
+.font-size-88{
+    font-size: 88px;
+}
 .font-size-108{
     font-size: 108px;
 }
@@ -48,6 +60,17 @@
 /* border */
 .border-1-white{
     border: 1px solid #FFFFFF;
+}
+.border-1-black{
+    border: 1px solid black;
+}
+
+.border-radius-2{
+    border-radius: 2px;
+}
+
+.border-none{
+    border: none;
 }
 
 /* line height */
@@ -66,11 +89,20 @@
 .margin-x-196{
     margin: 0 196px;
 }
+.margin-x-65{
+    margin: 0 65px;
+}
 .margin-bottom-8 {
     margin-bottom: 8px;
 }
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
 .margin-bottom-16 {
     margin-bottom: 16px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
 }
 .margin-bottom-24 {
     margin-bottom: 24px;
@@ -93,6 +125,9 @@
 .margin-bottom-70 {
     margin-bottom: 70px;
 }
+.margin-bottom-80 {
+    margin-bottom: 80px;
+}
 .margin-bottom-81 {
     margin-bottom: 81px;
 }
@@ -114,7 +149,15 @@
 .margin-bottom-192 {
     margin-bottom: 192px !important;
 }
-
+.margin-right-auto{
+    margin-right: auto;
+}
+.margin-right-48 {
+    margin-right: 48px;
+}
+.margin-right-52 {
+    margin-right: 52px;
+}
 .margin-right-66 {
     margin-right: 66px;
 }
@@ -131,8 +174,17 @@
 .margin-top-70{
     margin-top: 70px;
 }
+.margin-top-80{
+    margin-top: 80px;
+}
+.padding-top-116{
+    padding-top: 116px;
+}
 .margin-top-n-280{
     margin-top: -280px;
+}
+.margin-top-n-165{
+    margin-top: -165px;
 }
 
 
@@ -173,6 +225,9 @@
 .padding-top-240{
     padding-top: 240px;
 }
+.padding-bottom-84{
+    padding-bottom: 84px;
+}
 .padding-bottom-142{
     padding-bottom: 142px;
 }
@@ -192,6 +247,12 @@
 .bg-yellow{
     background: #FFC300;
 }
+.bg-pink{
+    background: #E84045;
+}
+.bg-footer{
+    background: #1A1A1A;
+}
 
 /* color text */
 .text-grey{
@@ -200,7 +261,9 @@
 .text-black{
     color: black;
 }
-
+.text-blue{
+    color: #2D1E99;
+}
 /* width */
 .width-240{
     width: 240px;
@@ -213,6 +276,9 @@
 }
 .width-475{
     width: 475px;
+}
+.width-full{
+    width: 100%;
 }
 
 /* height */
@@ -231,6 +297,9 @@
 }
 .height-210{
     height: 210px;
+}
+.height-500{
+    height: 500px;
 }
 .heigth-1866{
     height: 1866px;
