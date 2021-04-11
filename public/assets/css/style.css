@@ -13,25 +13,55 @@ body{
 } */
 
 .bg-gradient-blue-to-dark-blue{
+    z-index: -15;
     background: url("/images/bg-gradient-blue-to-dark-blue.png");
+    /* background: url("/images/bg-header-blue.jpg");
+    background-repeat: no-repeat; */
+}
+.bg-header-blue{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+}
+.image-header{
+    overflow-x: hidden;
+    position: relative;
+
 }
 
 .header-landing-page{
+    position: relative;
     overflow-x: hidden;
     width: 100%;
     height: 822px;
 }
-.wafe-1{
-    z-index: 100;
+.wafe{
+    left: -100px;
+    top: -100px;
     position: absolute;
-    width: 100px;
-    height: 200px;
-    top: 50px;
-    left: 50px;
+    z-index: -10;
 }
-.wafe-1 img{
-    height: 100%;
+/* .wave{
+    position: absolute;
+    height: 150px;
     width: 100%;
+}
+.wafe.wafe1{
+    top: 30px;
+} */
+.wafe-blue-right-1 img{
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 705px;
+    height: 900px;
+}
+.wafe-blue-left-1 img{
+    position: absolute;
+    top: -30px;
+    right: 705px;
+    width: 705px;
+    height: 900px;
 }
 .landing-page-section{
     height: 100vh;
@@ -523,6 +553,62 @@ footer{
     color: #FFFFFF;
 }
 /* End Careers Page */
+
+/* Start Privacy Policy Page */
+.title-header-privacy-policy{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 110%;
+    text-align: center;
+    color: #1A1A1A;
+    padding-top: 112px;
+}
+.updated-at-privacy{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #1A1A1A;
+    padding-top: 112px;
+    margin-left: 65px;
+}
+.title-desc-privacy{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #2D3748;
+    margin-left: 66px;
+}
+.desc-privacy{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #b1b1b1;
+    padding-top: 15px;
+    margin-left: 66px;
+    margin-right: 66px;
+}
+/* End Privacy Policy Page */
+
+/* Start Terms and Conditions */
+.title-header-terms{
+    font-family: Kollektif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 108px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 112px;
+}
+/* End Terms and Conditions */
 
 .form-input{
     width: 100%;

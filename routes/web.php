@@ -11,3 +11,6 @@ Route::view('/contact', 'contact.index');
 Route::view('/capabilities', 'capabilities.index');
 Route::view('/careers', 'careers.index');
 Route::view('/role-app', 'role-app.index');
+Route::view('/privacy-policy', 'privacy_policy.index');
+Route::view('/terms-and-conditions', 'terms_conditions.index');
+Route::view('/menu', 'components.menu');

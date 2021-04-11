@@ -231,6 +231,9 @@
 .padding-bottom-142{
     padding-bottom: 142px;
 }
+.padding-bottom-866{
+    padding-bottom: 866px;
+}
 
 /* container main */
 .container-main{
@@ -252,6 +255,12 @@
 }
 .bg-footer{
     background: #1A1A1A;
+}
+.bg-blue{
+    background: #1E88E5;
+}
+.bg-sapphire{
+    background: #3B28CC;
 }
 
 /* color text */

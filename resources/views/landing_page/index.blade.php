@@ -1,10 +1,25 @@
 @extends('layouts.app')
 @section('content')
     <div class="header-landing-page bg-gradient-blue-to-dark-blue">
-        <div class="wafe-1">
-            <img src="{{ asset('images/wafe1.png') }}" alt="">
+        <div class="wafe">
+            <img src="{{ asset('images/bg-header-blue.jpg') }}" alt="">
         </div>
-        <div class="wafe-2"></div>
+        {{-- <div class="wave wafe1" style="height: 150px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M177.38,0.17 C273.33,310.03 421.18,-136.01 505.26,127.46 L503.57,-7.73 L203.34,-0.81 Z" style="stroke: none; fill: #08f;"></path>
+            </svg>
+        </div>
+        <div class="wave wafe2" style="height: 150px; overflow: hidden;" >
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M177.38,0.17 C273.33,310.03 421.18,-136.01 505.26,127.46 L503.57,-7.73 L203.34,-0.81 Z" style="stroke: none; fill: white;"></path>
+            </svg>
+        </div> --}}
+        {{-- <div class="wafe-blue-right-1">
+            <img src="{{ asset('images/wafe/blue-right-1.png') }}" alt="">
+        </div>
+        <div class="wafe-blue-left-1">
+            <img src="{{ asset('images/wafe/blue-left-1.png') }}" alt="">
+        </div> --}}
         <div class="container-main padding-top-32 margin-bottom-178">
             <div class="d-flex justify-content-between margin-bottom-112">
                 <div><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
