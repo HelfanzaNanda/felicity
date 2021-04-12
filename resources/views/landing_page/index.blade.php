@@ -1,40 +1,27 @@
 @extends('layouts.app')
 @section('content')
     <div class="header-landing-page bg-gradient-blue-to-dark-blue">
-        <div class="wafe">
-            <img src="{{ asset('images/bg-header-blue.jpg') }}" alt="">
-        </div>
-        {{-- <div class="wave wafe1" style="height: 150px; overflow: hidden;" >
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-                <path d="M177.38,0.17 C273.33,310.03 421.18,-136.01 505.26,127.46 L503.57,-7.73 L203.34,-0.81 Z" style="stroke: none; fill: #08f;"></path>
-            </svg>
-        </div>
-        <div class="wave wafe2" style="height: 150px; overflow: hidden;" >
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-                <path d="M177.38,0.17 C273.33,310.03 421.18,-136.01 505.26,127.46 L503.57,-7.73 L203.34,-0.81 Z" style="stroke: none; fill: white;"></path>
-            </svg>
-        </div> --}}
-        {{-- <div class="wafe-blue-right-1">
-            <img src="{{ asset('images/wafe/blue-right-1.png') }}" alt="">
-        </div>
-        <div class="wafe-blue-left-1">
-            <img src="{{ asset('images/wafe/blue-left-1.png') }}" alt="">
-        </div> --}}
-        <div class="container-main padding-top-32 margin-bottom-178">
-            <div class="d-flex justify-content-between margin-bottom-112">
-                <div><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
-                <div><img src="{{ asset('images/icons/menu.png') }}" width="44" height="44"></div>
-            </div>
-            <div class="font-weight-700 font-size-108 text-white">Hello 👋 <br>
-                <span>We are Felicity</span>
+        <x-menu/>
+        <img class="wafe" src="{{ asset('images/header/bg-landing-page-crop.png') }}" alt="">
+        <div class="container-main padding-top-32">
+            <div class="row justify-content-between padding-bottom-112">
+                <div class="d-inline"><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
+                <img class="toogle-menu" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" width="44" height="44">
             </div>
         </div>
-        <div class="row justify-content-between">
-            <div><img src="{{ asset('images/sponsors/s.png') }}" width="297" height="60" alt=""></div>
-            <div><img src="{{ asset('images/sponsors/forbes.png') }}" width="297" height="60" alt=""></div>
-            <div><img src="{{ asset('images/sponsors/paloalto.png') }}" width="297" height="60" alt=""></div>
-            <div><img src="{{ asset('images/sponsors/jennar.png') }}" width="297" height="60" alt=""></div>
-            <div><img src="{{ asset('images/sponsors/facel.png') }}" width="297" height="60" alt=""></div>
+        <div class="header" style="transition: all 0.3s ease;">
+            <div class="container-main margin-bottom-178">
+                <div class="d-inline-block font-weight-700 font-size-108 text-white">Hello 👋 <br>
+                    <span>We are Felicity</span>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div><img src="{{ asset('images/sponsors/s.png') }}" width="" height="60" alt=""></div>
+                <div><img src="{{ asset('images/sponsors/forbes.png') }}" width="297" height="60" alt=""></div>
+                <div><img src="{{ asset('images/sponsors/paloalto.png') }}" width="297" height="60" alt=""></div>
+                <div><img src="{{ asset('images/sponsors/jennar.png') }}" width="297" height="60" alt=""></div>
+                <div><img src="{{ asset('images/sponsors/facel.png') }}" width="" height="60" alt=""></div>
+            </div>
         </div>
     </div>
 

@@ -1,14 +1,20 @@
 @extends('layouts.app')
 @section('content')
 <div class="header-landing-page bg-pink">
-    <div class="container-main padding-top-32 margin-bottom-178">
-        <div class="d-flex justify-content-between margin-bottom-112">
-            <div><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
-            <div><img src="{{ asset('images/icons/menu.png') }}" width="44" height="44"></div>
+    <x-menu/>
+    <div class="container-main padding-top-32">
+        <div class="row justify-content-between padding-bottom-112">
+            <div class="d-inline"><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
+            <img class="toogle-menu" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" width="44" height="44">
         </div>
-        <div class="font-kollektif font-weight-700 font-size-88 text-white margin-bottom-16">Sr Data Scientist, Payments</div>
-        <div class="text-grey">Bangalore, India</div>
     </div>
+    <div class="header">
+        <div class="container-main padding-top-32 margin-bottom-178">
+            <div class="font-kollektif font-weight-700 font-size-88 text-white margin-bottom-16">Sr Data Scientist, Payments</div>
+            <div class="text-grey">Bangalore, India</div>
+        </div>
+    </div>
+    
 </div>
 
 <div class="padding-top-84 margin-bottom-84">

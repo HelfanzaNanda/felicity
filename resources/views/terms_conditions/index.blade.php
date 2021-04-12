@@ -1,16 +1,20 @@
 @extends('layouts.app')
 @section('content')
     <div class="header-landing-page bg-blue">
-        <div class="container-main padding-top-32 margin-bottom-24">
-            <div class="d-flex justify-content-between margin-bottom-24">
-                <div><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
-                <div><img src="{{ asset('images/icons/menu.png') }}" width="44" height="44"></div>
-            </div>
-            <div class="title-header-terms">
-                Terms and <br>conditions 📃
+        <x-menu/>
+        <div class="container-main padding-top-32 ">
+            <div class="row justify-content-between">
+                <div class="d-inline"><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
+                <img class="toogle-menu" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" width="44" height="44">
             </div>
         </div>
-
+        <div class="header">
+            <div class="container-main padding-top-32 margin-bottom-24">
+                <div class="title-header-terms">
+                    Terms and <br>conditions 📃
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="bg-white padding-top-84">

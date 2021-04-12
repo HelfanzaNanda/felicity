@@ -1,13 +1,19 @@
 @extends('layouts.app')
 @section('content')
     <div class="header-landing-page bg-white">
+        <x-menu/>
         <div class="container-main padding-top-32 margin-bottom-24">
-            <div class="d-flex justify-content-between margin-bottom-24">
-                <div><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
-                <div><img src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44"></div>
+            <div class="row justify-content-between margin-bottom-24">
+                <div class="d-inline"><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
+                <img class="toogle-menu" style="cursor: pointer; z-index: 2;" 
+                src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44">
             </div>
         </div>
-        <img src="{{ asset('images/insights/hero-insights.png') }}" alt="">
+        <div class="header">
+            <img src="{{ asset('images/insights/hero-insights.png') }}" class="w-100" alt="">
+        </div>
+        {{-- <img src="{{ asset('images/insights/hero-insights.png') }}" alt=""> --}}
+        
     </div>
 
     <div class="bg-white padding-top-84">

@@ -1,31 +1,37 @@
 @extends('layouts.app')
 @section('content')
     <div class="header-landing-page bg-gradient-blue-to-dark-blue">
-        <div class="wafe-1">
-            <img src="{{ asset('images/wafe1.png') }}" alt="">
-        </div>
-        <div class="wafe-2"></div>
-        <div class="container-main padding-top-32 margin-bottom-178">
-            <div class="d-flex justify-content-between margin-bottom-112">
-                <div><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
-                <div><img src="{{ asset('images/icons/menu.png') }}" width="44" height="44"></div>
+        <x-menu/>
+        <img class="wafe" src="{{ asset('images/header/bg-landing-page-crop.png') }}" alt="">
+        <div class="container-main padding-top-32">
+            <div class="row justify-content-between padding-bottom-112">
+                <div class="d-inline"><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
+                <img class="toogle-menu" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" width="44" height="44">
             </div>
-            <div class="row">
-                <div class="col-lg-7 col-md-7">
-                    <div class="title-header-solo">Project <br>
-                        <span>Headline 1</span>
+        </div>
+        <div class="header">
+            <div class="container-main padding-top-32 margin-bottom-178">
+                {{-- <div class="d-flex justify-content-between margin-bottom-112">
+                    <div><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
+                    <div><img src="{{ asset('images/icons/menu.png') }}" width="44" height="44"></div>
+                </div> --}}
+                <div class="row">
+                    <div class="col-lg-7 col-md-7">
+                        <div class="title-header-solo">Project <br>
+                            <span>Headline 1</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5">
-                    <img src="{{ asset('images/phone/phone.png') }}" alt="">
-                </div>
             </div>
         </div>
+       
     </div>
 
     <div class="bg-dark-blue padding-top-84 padding-bottom-84" >
         <div class="container-main">
-
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="text-label padding-top-240">Client</div>
@@ -63,22 +69,22 @@
                     <img src="{{ asset('images/phone/phone3.png') }}" alt="">
                 </div>
             </div>
-            <div class="row padding-top-84">
-                <div class="col-lg-4 col-md-4">
+            <div class="d-flex justify-content-between padding-top-84">
+                <div>
                     <div class="row justify-content-center rectangle1">
                         <img src="{{ asset('images/phone/phone.png') }}" class="justify-content-center" alt="">
                     </div>
                     <div class="title-project">Big Project Headline 1</div>
                     <div class="font-size-22 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div>
                     <div class="row justify-content-center rectangle2">
                         <img src="{{ asset('images/phone/phone.png') }}" class="justify-content-center" alt="">
                     </div>
                     <div class="title-project">Big Project Headline 1</div>
                     <div class="font-size-22 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div>
                     <div class="row justify-content-center rectangle3">
                         <img src="{{ asset('images/phone/phone.png') }}" class="justify-content-center" alt="">
                     </div>

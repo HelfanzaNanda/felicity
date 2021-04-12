@@ -13,10 +13,8 @@ body{
 } */
 
 .bg-gradient-blue-to-dark-blue{
-    z-index: -15;
+    /* z-index: -15; */
     background: url("/images/bg-gradient-blue-to-dark-blue.png");
-    /* background: url("/images/bg-header-blue.jpg");
-    background-repeat: no-repeat; */
 }
 .bg-header-blue{
     width: 100%;
@@ -31,24 +29,24 @@ body{
 
 .header-landing-page{
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
     width: 100%;
     height: 822px;
 }
-.wafe{
-    left: -100px;
-    top: -100px;
+
+img.wafe{
     position: absolute;
-    z-index: -10;
+    z-index: 2;
+    /* right: -219px;
+    top: -140px;
+    width: 80%; */
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background-repeat: no-repeat;
 }
-/* .wave{
-    position: absolute;
-    height: 150px;
-    width: 100%;
-}
-.wafe.wafe1{
-    top: 30px;
-} */
+
 .wafe-blue-right-1 img{
     position: absolute;
     top: -30px;
@@ -674,4 +672,27 @@ footer{
 
   .list ul li{
       margin-bottom: 10px;
+  }
+
+  .menu {
+        display: none;
+        margin-top: 165px;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        -moz-animation-delay: 3.5s;
+        -webkit-animation-delay: 3.5s;
+        -o-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+  }
+
+  .header{
+    -moz-animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+    -o-animation-delay: 3.5s;
+     animation-delay: 3.5s;
+  }
+  
+  .menu.active {
+    right: 0 !important;
   }
