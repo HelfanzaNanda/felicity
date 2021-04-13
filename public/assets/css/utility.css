@@ -234,6 +234,9 @@
 .padding-top-240{
     padding-top: 240px;
 }
+.padding-top-288{
+    padding-top: 288px;
+}
 .padding-bottom-84{
     padding-bottom: 84px;
 }
@@ -277,6 +280,9 @@
 .bg-sapphire{
     background: #3B28CC;
 }
+.bg-green{
+    background: #6BB247;
+}
 
 /* color text */
 .text-grey{
@@ -291,6 +297,9 @@
 /* width */
 .width-240{
     width: 240px;
+}
+.width-447{
+    width: 447px;
 }
 .width-450{
     width: 450px;

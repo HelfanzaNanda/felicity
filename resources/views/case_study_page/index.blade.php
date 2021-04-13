@@ -1,12 +1,13 @@
 @extends('layouts.app')
 @section('content')
     <div class="header-landing-page bg-yellow">
-        <x-menu/>
+        <x-menu-text-black/>
         <img class="wafe" src="{{ asset('images/header/bg-header-yellow-crop.png') }}" alt="">
         <div class="container-main padding-top-32">
             <div class="row justify-content-between padding-bottom-112">
                 <div class="d-inline"><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
-                <img class="toogle-menu" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44">
+                <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44">
+                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close.png') }}" width="44" height="44">
             </div>
         </div>
         <div class="header">

@@ -24,13 +24,17 @@
       let menuActive = false;
       $(".toogle-menu").on('click', function() {
         if (!menuActive) {
-            menuActive = true  
+            menuActive = true
             $('.header').hide()
             $('#menu').show();
+            $('.toogle-menu.open').addClass('d-none')
+            $('.toogle-menu.close').removeClass('d-none')
         }else{
             menuActive = false
             $('.header').show()
             $('#menu').hide();
+            $('.toogle-menu.open').removeClass('d-none')
+            $('.toogle-menu.close').addClass('d-none')
         }
       });
     // </script>
