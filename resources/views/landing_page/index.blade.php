@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="header-our-proccess bg-gradient-blue-to-dark-blue">
+    <div class="header-landing-page bg-gradient-blue-to-dark-blue">
         <x-menu/>
         <img class="wafe" src="{{ asset('images/header/bg-landing-page-crop.png') }}" alt="">
         <div class="container-main padding-top-32">

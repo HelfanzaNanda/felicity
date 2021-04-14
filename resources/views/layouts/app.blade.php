@@ -12,6 +12,12 @@
     <title>Felicity</title>
   </head>
   <body>
+   <section>
+    <video preload="none" autoplay muted id="video">
+      <source src="{{ asset('videos/opening.mp4') }}" type="video/mp4">
+    </video>
+   </section>
+
     @yield('content')
 
     <!-- Optional JavaScript -->
@@ -37,6 +43,12 @@
             $('.toogle-menu.close').addClass('d-none')
         }
       });
-    // </script>
+    </script>
+    <script>
+      // $('#video').show()
+      $('#video').on('ended',function(){ 
+        $(this).hide();
+      });
+    </script>
   </body>
 </html>
