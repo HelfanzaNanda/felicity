@@ -83,31 +83,29 @@
             </div>
             <!-- End Our Work -->
 
-            <!-- Start Insights -->
-            <div class="row padding-top-84">
-                <div class="col-lg-4 col-md-4">
-                    <div class="row justify-content-center rectangle1">
-                        <img src="{{ asset('images/phone/phone.png') }}" class="justify-content-center" alt="">
+            <div class="d-flex justify-content-between padding-top-84">
+                <div>
+                    <div class="rectangle bg-yellow text-center d-flex justify-content-center">
+                        <img src="{{ asset('images/phone/phone.png') }}">
                     </div>
-                    <div class="title-project">Big Project Headline 1</div>
-                    <div class="font-size-22 text-grey">UI & UX / Front-end</div>
+                    <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
+                    <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="row justify-content-center rectangle2">
-                        <img src="{{ asset('images/phone/phone.png') }}" class="justify-content-center" alt="">
+                <div>
+                    <div class="rectangle bg-purple-2 text-center d-flex justify-content-center">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
-                    <div class="title-project">Big Project Headline 1</div>
-                    <div class="font-size-22 text-grey">UI & UX / Front-end</div>
+                    <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
+                    <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="row justify-content-center rectangle3">
-                        <img src="{{ asset('images/phone/phone.png') }}" class="justify-content-center" alt="">
+                <div>
+                    <div class="rectangle bg-pink text-center d-flex justify-content-center">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
-                    <div class="title-project">Big Project Headline 1</div>
-                    <div class="font-size-22 text-grey">UI & UX / Front-end</div>
+                    <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
+                    <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
             </div>
-            <!-- End Insights -->
         </div>
     </div>
 
@@ -118,7 +116,7 @@
             <div class="d-flex">
                 <div class="text-white font-kollektif margin-right-auto font-size-22">300 Broadway, Suite 23 <br>
                     San Francisco, CA 94133</div>
-                <div class="row">
+                <div class="d-flex">
                     <div class="margin-right-52">
                         <a href="" class="d-block text-white font-kollektif font-size-16">Case studies</a>
                         <a href="" class="d-block text-white font-kollektif font-size-16">Process</a>
@@ -131,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 

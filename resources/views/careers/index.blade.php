@@ -19,12 +19,31 @@
 
     <div class="bg-dark-blue padding-top-84">
         <div class="container-main">
-            <div class="margin-top-n-280 margin-bottom-48">
-                <img src="{{ asset('images/careers/cover-careers.png') }}" width="100%" height="450">
+            <div class="margin-top-n-227 margin-bottom-120">
+                <img class="position-relative" src="{{ asset('images/careers/cover-careers.png') }}" width="100%" height="450">
             </div>
 
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
+            <div class="font-size-18 font-weight-500 text-grey margin-bottom-12">OUR MISSION</div>
+            <div class="d-flex justify-content-between">
+                <div class="width-500">
+                    <div class="font-size-18 font-weight-500 text-white margin-bottom-213">
+                        It’s an audacious, incredibly rewarding mission that our increasingly diverse team is dedicated to achieving.
+                        Airbnb is built around the idea that everyone should be able to take the perfect trip, including where they stay, what they do, and who they meet. To that end, we empower millions of people around the world to use their spaces, passions, and talents to become entrepreneurs.
+                    </div>
+                    <div>
+                        <img src="{{ asset('images/users/user5.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="width-500">
+                    <div class="margin-bottom-120">
+                        <img src="{{ asset('images/careers/analysis.png') }}" >
+                    </div>
+                    <div class="font-size-18 font-weight-500 text-white">
+                        Sed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipi.
+                    </div>
+                    
+                </div>
+                {{-- <div class="col-lg-6 col-md-6">
                     <div class="text-label-careers padding-top-120">OUR MISSION</div>
                     <div class="desc-careers mt-3">It’s an audacious, incredibly rewarding mission that our increasingly
                         diverse team is dedicated to achieving.
@@ -45,7 +64,7 @@
                         sedSed ut pporro quisquam est, qui dolorem ipsum<br> quia dolor sit amet, consectetur, adipisci velit,<br>
                         sedSed ut pporro quisquam est, qui dolorem ipsum<br> quia dolor sit amet, consectetur, adipi.
                     </div>
-                </div>
+                </div> --}}
             </div>
 
             <div class="row padding-top-120 margin-bottom-56">
@@ -99,8 +118,8 @@
                 </div>
             </div>
 
-            <div class="row padding-top-120 padding-bottom-142">
-                <div class="col-lg-6 col-md-6">
+            <div class="row justify-content-between padding-top-120 padding-bottom-142">
+                <div class="width-323">
                     <div class="text-label-careers">
                         DEPARTEMENTS
                     </div>
@@ -113,10 +132,10 @@
                     <div class="text-departements padding-top-32">Business Development (3)</div>
                     <div class="text-departements padding-top-32">Business Development (3)</div>
                 </div>
-                <div class="col-lg-2 col-md-2">
+                <div>
                     <div class="line-vertical" style="align:center;"></div>
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="width-323">
                     <div class="text-label-careers">
                         FEATURED ROLES
                     </div>

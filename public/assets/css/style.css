@@ -262,26 +262,26 @@ footer{
     text-align: center;
     color: #1A1A1A;
 }
-.rectangle1{
+.rectangle{
+    position: relative;
     width: 300px;
     height: 300px;
-    background: #FFC300;
     border-radius: 16px;
     overflow: hidden;
 }
-.rectangle2{
-    width: 300px;
-    height: 300px;
-    background: #8C30F5;
-    border-radius: 16px;
-    overflow: hidden;
+.rectangle img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-12%);
 }
-.rectangle3{
-    width: 300px;
-    height: 300px;
-    background: #E84045;
-    border-radius: 16px;
-    overflow: hidden;
+
+.img-case-study-solo{
+    position: relative;
+    margin-top: -886px;
+    min-height: 661px;
+    size: 100%;
+    width: auto;
 }
 .title-project{
     font-family: Montserrat;
@@ -355,7 +355,7 @@ footer{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 21px;
     font-feature-settings: 'liga' off;
     color: #E8E7E7;
 }
@@ -392,7 +392,6 @@ footer{
     line-height: 48px;
     color: #202020;
     padding-top: 80px;
-    margin-left: 65px;
     margin-bottom: 55px;
 }
 .card-detail-insights{
@@ -406,7 +405,6 @@ footer{
     line-height: 22px;
     color: #202020;
     padding-top: 24px;
-    margin-left: 65px;
 }
 .created-at-detail{
     font-family: Kollektif;
@@ -418,10 +416,8 @@ footer{
     padding-top: 24px;
 }
 .line-detail{
-    padding-left: 65px;
-    border-top: none;
     border-bottom: 1px solid #E8E7E7;
-    width: 790px;
+    width: 695px;
 }
 .desc-detail-insights{
     font-family: Kollektif;
@@ -430,7 +426,6 @@ footer{
     font-size: 16px;
     line-height: 19px;
     color: #718096;
-    margin-left: 65px;
 }
 .title2-detail-insights{
     font-family: Kollektif;
@@ -446,7 +441,6 @@ footer{
     font-weight: bold;
     font-size: 24px;
     color: #202020;
-    margin-left: 65px;
 }
 .title4-detail-insights{
     font-family: Kollektif;
@@ -463,7 +457,6 @@ footer{
     font-weight: bold;
     font-size: 16px;
     color: #202020;
-    margin-left: 65px;
 }
 .date-detail-insights{
     font-family: Kollektif;

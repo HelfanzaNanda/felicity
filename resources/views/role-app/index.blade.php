@@ -11,7 +11,7 @@
     </div>
     <div class="header">
         <div class="container-main padding-top-32 margin-bottom-178">
-            <div class="font-kollektif font-weight-700 font-size-88 text-white margin-bottom-16">Sr Data Scientist, Payments</div>
+            <div class="font-kollektif line-height-86 font-weight-700 font-size-88 text-white margin-bottom-16">Sr Data Scientist, <br> Payments</div>
             <div class="text-grey">Bangalore, India</div>
         </div>
     </div>
@@ -20,7 +20,7 @@
 
 <div class="padding-top-84 margin-bottom-84">
     <div class="container-main">
-        <div class="margin-top-n-165 margin-bottom-48 bg-white">
+        <div class="margin-top-n-165 position-relative margin-bottom-48 bg-white">
             <div class="margin-x-65 padding-top-116">
                 <div class="row nav tabs margin-bottom-80" role="tablist">
                     <a class="margin-right-48 active" href="#role" data-toggle="tab">Role Overview</a>

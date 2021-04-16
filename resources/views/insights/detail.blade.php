@@ -13,33 +13,25 @@
         <div class="header">
             <img src="{{ asset('images/insights/hero-insights.png') }}" class="w-100" alt="">
         </div>
-        {{-- <img src="{{ asset('images/insights/hero-insights.png') }}" alt=""> --}}
-        
     </div>
 
     <div class="bg-white padding-top-84">
         <div class="container-main">
             <div class="margin-top-n-280 margin-bottom-48">
                 <div class="card" style="border-color: white">
-                    <div class="card-body">
-                        <div class="title1-detail-insights">
-                            Finibus Bonorum et Malorum
-                        </div>
-                        <hr class="line-detail">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="creator-name">
-                                    Written by John doe
+                    <div class="margin-left-65">
+                        <div class="title1-detail-insights"> Finibus Bonorum et Malorum </div>
+                        <hr class="line-detail" align="left">
+                        <div class="d-flex">
+                            <div class="width-760 margin-right-40">
+                                <div class="d-flex justify-content-between">
+                                    <div class="creator-name">
+                                        Written by John doe
+                                    </div>
+                                    <div class="created-at-detail">
+                                        1 week ago 8 min
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="created-at-detail">
-                                    1 week ago 8 min
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8">
                                 <div class="desc-detail-insights padding-top-40">
                                     Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
                                     <br>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
@@ -64,13 +56,13 @@
                                     or avoids pleasure itself, because it is pleasure, but because those
                                     who do not know how to pursue pleasure rationally encounter consequences that
                                     are extremely painful. Nor again is there anyone who loves or pursues or desires
-                                     to obtain pain of itself, because it is pain, but because occasionally
-                                     circumstances occur in which toil and pain can procure him some great pleasure.
-                                     To take a trivial example, which of us ever undertakes laborious
-                                     physical exercise, except to obtain some advantage from it? But who has
-                                     any right to find fault with a man who chooses to enjoy a pleasure that
-                                     has no annoying consequences, or one who avoids a pain that produces no
-                                     resultant pleasure?"
+                                        to obtain pain of itself, because it is pain, but because occasionally
+                                        circumstances occur in which toil and pain can procure him some great pleasure.
+                                        To take a trivial example, which of us ever undertakes laborious
+                                        physical exercise, except to obtain some advantage from it? But who has
+                                        any right to find fault with a man who chooses to enjoy a pleasure that
+                                        has no annoying consequences, or one who avoids a pain that produces no
+                                        resultant pleasure?"
                                 </div>
 
                                 <div class="title5-detail-insights mt-3">
@@ -136,62 +128,57 @@
                                     tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
                                     consequatur aut perferendis doloribus asperiores repellat."
                                 </div>
-
                             </div>
-                            <div class="col-lg-4 col-md-4 padding-top-45">
-                                <img src="{{ asset('images/insights/laptop.png') }}" alt="">
-                                <div class="title4-detail-insights">
-                                    Finibus Bonorum et Malorumed
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-lg-8 col-md-8">
-                                        <div class="date-detail-insights">
-                                            May 20th 2021
-                                        </div>
+                            <div class="width-310">
+                                <div class="margin-bottom-40">
+                                    <img src="{{ asset('images/insights/laptop.png') }}" alt="">
+                                    <div class="title4-detail-insights">
+                                        Finibus Bonorum et Malorumed
                                     </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <a href="#" class="float-right font-size-14 mt-2">Read now</a>
-                                        <hr style="width: 90%; border-color: blue;" class="mt-4">
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="font-size-14 font-kollektif"> May 20th 2021 </div>
+                                        <div>
+                                            <div><a href="#" class="ont-size-14 font-kollektif">Read now</a></div>
+                                            <hr class="bg-blue margin-top-4">
+                                        </div>
                                     </div>
                                 </div>
 
-                                <img src="{{ asset('images/insights/laptop.png') }}" class="mt-4" alt="">
-                                <div class="title4-detail-insights">
-                                    Finibus Bonorum et Malorumed
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col-lg-8 col-md-8">
-                                        <div class="date-detail-insights">
-                                            May 20th 2021
-                                        </div>
+                                <div class="margin-bottom-40">
+                                    <img src="{{ asset('images/insights/laptop.png') }}" alt="">
+                                    <div class="title4-detail-insights">
+                                        Finibus Bonorum et Malorumed
                                     </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <a href="#" class="float-right font-size-14 mt-2">Read now</a>
-                                        <hr style="width: 90%; border-color: blue;" class="mt-4">
+                                    <hr>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="font-size-14 font-kollektif"> May 20th 2021 </div>
+                                        <div>
+                                            <div><a href="#" class="ont-size-14 font-kollektif">Read now</a></div>
+                                            <hr class="bg-blue margin-top-4">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <hr class="line-detail padding-top-240">
+                        
+                        <hr class="line-detail" align="left">
                         <div class="row padding-top-32 margin-left-48 margin-bottom-192">
-                            <img src="{{ asset('images/insights/emoji-hand-black.png') }}" alt="">
-                            <div class="emoji-text text-black mt-2">
+                            <img src="{{ asset('images/insights/emoji-hand-black.png') }}" width="28" height="25">
+                            <div class="emoji-text text-black">
                                 2.1K claps
                             </div>
-                            <img src="{{ asset('images/insights/comment-black.png') }}" alt="">
-                            <div class="emoji-text text-black mt-2">
+                            <img src="{{ asset('images/insights/comment-black.png') }}" width="26" height="26">
+                            <div class="emoji-text text-black">
                                 40 Comments
                             </div>
-                            <img src="{{ asset('images/insights/share-black.png') }}" class="ml-5" alt="">
-                            <div class="emoji-text text-black mt-2">
+                            <img src="{{ asset('images/insights/share-black.png') }}" class="ml-5" width="27" height="22">
+                            <div class="emoji-text text-black">
                                 Share
                             </div>
-                            <img src="{{ asset('images/social-media/fb-black.png') }}" class="ml-5" alt="">
-                            <img src="{{ asset('images/social-media/twitter-black.png') }}" class="ml-4" alt="">
-                    </div>
+                            <img src="{{ asset('images/icons/fb.png') }}" class="ml-5" width="24" height="24">
+                            <img src="{{ asset('images/icons/twitter.png') }}" class="ml-4" width="27" height="22">
+                        </div>
                     </div>
                 </div>
 

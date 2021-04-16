@@ -16,12 +16,12 @@
                     <span>We are Felicity</span>
                 </div>
             </div>
-            <div class="row justify-content-between">
-                <div><img src="{{ asset('images/sponsors/s.png') }}" width="" height="60" alt=""></div>
-                <div><img src="{{ asset('images/sponsors/forbes.png') }}" width="297" height="60" alt=""></div>
-                <div><img src="{{ asset('images/sponsors/paloalto.png') }}" width="297" height="60" alt=""></div>
-                <div><img src="{{ asset('images/sponsors/jennar.png') }}" width="297" height="60" alt=""></div>
-                <div><img src="{{ asset('images/sponsors/facel.png') }}" width="" height="60" alt=""></div>
+            <div class="owl-carousel">
+                <div><img class="img-sponsors" src="{{ asset('images/sponsors/forbes.png') }}" width="297" height="60" alt=""></div>
+                <div><img class="img-sponsors" src="{{ asset('images/sponsors/paloalto.png') }}" width="297" height="60" alt=""></div>
+                <div><img class="img-sponsors" src="{{ asset('images/sponsors/jennar.png') }}" width="297" height="60" alt=""></div>
+                <div><img class="img-sponsors" src="{{ asset('images/sponsors/paloalto.png') }}" width="297" height="60" alt=""></div>
+                <div><img class="img-sponsors" src="{{ asset('images/sponsors/jennar.png') }}" width="297" height="60" alt=""></div>
             </div>
         </div>
     </div>
@@ -36,7 +36,10 @@
                             Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
                             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
                         </div>
-                        <div class="text-white ">Find out more</div>
+                        <div class="find-more">
+                            Find Out More
+                        </div>
+                        <div class="border-find"></div>
                     </div>
                 </div>
                 <div><img class="img-hero" src="{{ asset('images/video-placeholder.png') }}"></div>
@@ -69,7 +72,10 @@
                         <div class="text-grey margin-bottom-40">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
                             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
                         </div>
-                        <div class="text-white line-height-19"><u>FIND OUT MORE</u></div>
+                        <div class="find-more">
+                            Find Out More
+                        </div>
+                        <div class="border-find"></div>
                     </div>
                 </div>
             </div>
@@ -278,7 +284,7 @@
             <div class="d-flex">
                 <div class="text-white font-kollektif margin-right-auto font-size-22">300 Broadway, Suite 23 <br>
                     San Francisco, CA 94133</div>
-                <div class="row">
+                <div class="d-flex">
                     <div class="margin-right-52">
                         <a href="" class="d-block text-white font-kollektif font-size-16">Case studies</a>
                         <a href="" class="d-block text-white font-kollektif font-size-16">Process</a>
