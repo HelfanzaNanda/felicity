@@ -1,7 +1,7 @@
 <div class="menu" id="menu">
     <div class="container-main">
-        <div class="d-flex justify-content-between">
-            <div class="width-245">
+        <div class="d-flex">
+            <div class="width-245 margin-right-439">
                 <div class="margin-bottom-80 d-flex align-items-center">
                     <img class="margin-right-20 text-black" src="{{ asset('images/icons/rhomb-black.png') }}" width="17" height="17">
                     <div class="font-size-18 font-weight-700">FOLLOW US</div>
@@ -28,11 +28,11 @@
                     <img class="margin-right-20" src="{{ asset('images/icons/rhomb-black.png') }}" width="17" height="17">
                     <div class=" font-size-18 font-weight-700">NAVIGATE TO</div>
                 </div>
-                <div><a href="" class="font-size-50 text-black font-weight-700 font-kollektif text-capitalize">Our Process</a></div>
-                <div><a href="" class="font-size-50 text-black font-weight-700 font-kollektif text-capitalize">Capabilities</a></div>
-                <div><a href="" class="font-size-50 text-black font-weight-700 font-kollektif text-capitalize">Opportunities</a></div>
-                <div><a href="" class="font-size-50 text-black font-weight-700 font-kollektif text-capitalize">Insights</a></div>
-                <div><a href="" class="font-size-50 text-black font-weight-700 font-kollektif text-capitalize">Case Studies</a></div>
+                <div><a href="" class="font-size-50 margin-bottom-16 text-black font-weight-700 font-kollektif capitalize">OUR PROCESS</a></div>
+                <div><a href="" class="font-size-50 margin-bottom-16 text-black font-weight-700 font-kollektif capitalize">CAPABILITIES</a></div>
+                <div><a href="" class="font-size-50 margin-bottom-16 text-black font-weight-700 font-kollektif capitalize">OPPURTUNITIES</a></div>
+                <div><a href="" class="font-size-50 margin-bottom-16 text-black font-weight-700 font-kollektif capitalize">INSIGHTS</a></div>
+                <div><a href="" class="font-size-50 margin-bottom-16 text-black font-weight-700 font-kollektif capitalize">CASE STUDIES</a></div>
             </div>
         </div>
     </div>
