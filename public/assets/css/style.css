@@ -14,7 +14,7 @@ body{
 
 .bg-gradient-blue-to-dark-blue{
     /* z-index: -15; */
-    background: url("/css/../images/bg-gradient-blue-to-dark-blue.png");
+    background: url("../../images/bg-gradient-blue-to-dark-blue.png");
 }
 .bg-header-blue{
     width: 100%;
