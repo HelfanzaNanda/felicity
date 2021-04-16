@@ -2,7 +2,7 @@
 
 @font-face { /*perintah untuk memanggil font eksternal*/
     font-family: 'Kollektif'; /*memberikan nama bebas untuk font*/
-    src: url('/assets/font/kollektif/Kollektif.ttf');/*memanggil file font eksternalnya di folder nexa*/
+    src: url('/css/../assets/font/kollektif/Kollektif.ttf');/*memanggil file font eksternalnya di folder nexa*/
 }
 
 body{
