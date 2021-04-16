@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <div class="bg-white padding-top-84">
+    <div class="bg-white">
         <div class="container-main">
             <div class="panel position-relative bg-white  margin-top-n-70">
                 <div class="margin-x-65 ">
