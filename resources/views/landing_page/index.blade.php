@@ -50,20 +50,44 @@
                 <div class="d-flex justify-content-between">
                     <div class="width-450">
                         <div class="margin-bottom-70">
-                            <div class="text-white margin-bottom-25 font-weight-700">✏️  Design &nbsp; <span><img src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67"></span></div>
-                            <div class="text-grey">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            <a data-toggle="collapse" href="#design" role="button" aria-expanded="false" aria-controls="collapseExample"
+                             onclick="collapseDesign()" class="btn-collapse design text-white margin-bottom-25 font-size-26 font-weight-700">✏️  Design &nbsp; 
+                             <span>
+                                 <img class="up-design" src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67">
+                                 <img class="down-design" style="display: none" src="{{ asset('images/icons/arrow-down.png') }}" width="13.34" height="7.67">
+                            </span>
+                            </a>
+                            <div class="text-grey collapse" id="design">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
                         </div>
                         <div class="margin-bottom-70">
-                            <div class="text-white margin-bottom-25 font-weight-700">🎥  Motion & Audio &nbsp; <span><img src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67"></span></div>
-                            <div class="text-grey">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            <a data-toggle="collapse" onclick="collapseMotion()" href="#motion" role="button" aria-expanded="false" aria-controls="collapseExample"
+                            class="btn-collapse text-white margin-bottom-25 font-size-26 font-weight-700">🎥  Motion & Audio &nbsp; 
+                                <span>
+                                    <img class="up-motion" src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67">
+                                    <img class="down-motion" style="display: none" src="{{ asset('images/icons/arrow-down.png') }}" width="13.34" height="7.67">
+                                </span>
+                            </a>
+                            <div class="text-grey collapse" id="motion">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
                         </div>
                         <div class="margin-bottom-70">
-                            <div class="text-white margin-bottom-25 font-weight-700">🎥  Motion & Audio &nbsp; <span><img src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67"></span></div>
-                            <div class="text-grey">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            <a data-toggle="collapse" onclick="collapseMarketing()" href="#marketing" role="button" aria-expanded="false" aria-controls="collapseExample"
+                            class="btn-collapse text-white margin-bottom-25 font-size-26 font-weight-700">📢  Marketing &nbsp; 
+                                <span>
+                                    <img class="up-marketing" src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67">
+                                    <img class="down-marketing" style="display: none" src="{{ asset('images/icons/arrow-down.png') }}" width="13.34" height="7.67">
+                                </span>
+                            </a>
+                            <div class="text-grey collapse" id="marketing">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
                         </div>
                         <div class="margin-bottom-70">
-                            <div class="text-white margin-bottom-25 font-weight-700">🎥  Motion & Audio &nbsp; <span><img src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67"></span></div>
-                            <div class="text-grey">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            <a data-toggle="collapse" onclick="collapseGrowth()" href="#growth" role="button" aria-expanded="false" aria-controls="collapseExample"
+                            class="btn-collapse text-white margin-bottom-25 font-size-26 font-weight-700">🎯  Felicity Growth &nbsp; 
+                                <span>
+                                    <img class="up-growth" src="{{ asset('images/icons/arrow-up.png') }}" width="13.34" height="7.67">
+                                    <img class="down-growth" style="display: none" src="{{ asset('images/icons/arrow-down.png') }}" width="13.34" height="7.67">
+                                </span>
+                            </a>
+                            <div class="text-grey collapse" id="growth">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
                         </div>
 
                     </div>
@@ -157,9 +181,7 @@
             </div>
 
             <!-- Start Our Work -->
-            <div class="our-work">
-                Our Work
-            </div>
+            <div class="our-work"> Our Work </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="circle1-work">
@@ -217,9 +239,7 @@
             <!-- End Our Work -->
 
             <!-- Start Insights -->
-            <div class="insights">
-                Insights
-            </div>
+            <div class="insights"> Insights </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <img src="{{ asset('images/insights/image1.png') }}" class="img-insights" alt="">
@@ -302,3 +322,57 @@
     </div>
 
 @endsection
+
+@push('scripts')
+<script>
+
+    let showDesign = false
+    let showMotion = false
+    let showMarketing = false
+    let showGrowth = false
+    function collapseDesign() { 
+        if (!showDesign) {
+            $('.up-design').hide()
+            $('.down-design').show()    
+            showDesign = true
+        }else{
+            $('.up-design').show()
+            $('.down-design').hide()    
+            showDesign = false
+        }
+     }
+     function collapseMarketing() { 
+        if (!showMarketing) {
+            $('.up-marketing').hide()
+            $('.down-marketing').show()    
+            showMarketing = true
+        }else{
+            $('.up-marketing').show()
+            $('.down-marketing').hide()    
+            showMarketing = false
+        }
+     }
+     function collapseGrowth() { 
+        if (!showGrowth) {
+            $('.up-growth').hide()
+            $('.down-growth').show()    
+            showGrowth = true
+        }else{
+            $('.up-growth').show()
+            $('.down-growth').hide()    
+            showGrowth = false
+        }
+     }
+     function collapseMotion() { 
+        if (!showMotion) {
+            $('.up-motion').hide()
+            $('.down-motion').show()    
+            showMotion = true
+        }else{
+            $('.up-motion').show()
+            $('.down-motion').hide()    
+            showMotion = false
+        }
+     }
+</script>
+@endpush

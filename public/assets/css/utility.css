@@ -35,6 +35,9 @@
 .font-size-24{
     font-size: 24px;
 }
+.font-size-26{
+    font-size: 26px;
+}
 .font-size-28{
     font-size: 28px;
 }
@@ -187,6 +190,9 @@
 }
 .margin-right-66 {
     margin-right: 66px;
+}
+.margin-right-439 {
+    margin-right: 439px;
 }
 .margin-right-20 {
     margin-right: 20px;
@@ -364,6 +370,9 @@
 .text-grey{
     color: #C4C4C4;
 }
+.text-grey-dark{
+    color: #718096;
+}
 .text-black{
     color: black;
 }
@@ -449,4 +458,7 @@
 }
 .heigth-1866{
     height: 1866px;
+}
+.capitalize{
+    text-transform: capitalize;
 }

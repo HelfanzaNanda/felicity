@@ -18,16 +18,16 @@
         </div>
     </div>
 
-    <div class="bg-white padding-top-84">
+    <div class="bg-white">
         <div class="container-main">
             <div class="panel position-relative bg-white  margin-top-n-70">
                 <div class="margin-x-65 ">
                     <div class="font-size-22 font-weight-600 padding-top-116 margin-bottom-16">Updated March 29, 2021</div>
                     <hr class="margin-bottom-80">
                     <div class="font-size-28 margin-bottom-20 font-weight-700">The Challange</div>
-                    <div class="margin-bottom-10">Unique travel experiences around the world. Whether an apartment for a night, a castle for a week or a villa for a month, Airbnb allows people to Belong Anywhere through unique travel experiences at any price point, in more than 85,000 cities and over 191 countries. We promote a culture of curiosity, humanity, and creativity through our product, brand, and, most importantly, our people.</div>
+                    <div class="margin-bottom-10 font-size-16 text-grey-dark">Unique travel experiences around the world. Whether an apartment for a night, a castle for a week or a villa for a month, Airbnb allows people to Belong Anywhere through unique travel experiences at any price point, in more than 85,000 cities and over 191 countries. We promote a culture of curiosity, humanity, and creativity through our product, brand, and, most importantly, our people.</div>
                     <div class="font-size-28 margin-bottom-20 font-weight-700">The Challange</div>
-                    <div class="list">
+                    <div class="list font-size-16 text-grey-dark">
                         <ul>
                             <li>Be a thought leader, partner with your cross-functional partners to foster a data driven payments organization.</li>
                             <li>With a focus on Payments compliance and keeping our platform safe, anticipate and detect new fraud trends and regulatory requirements.</li>
@@ -38,7 +38,7 @@
                         </ul>
                     </div>
                     <div class="font-size-28 margin-bottom-20 font-weight-700">What you need to succeed</div>
-                    <div class="list margin-bottom-80">
+                    <div class="list margin-bottom-80 font-size-16 text-grey-dark">
                         <ul>
                             <li>4+ years industry experience in a quantitative analysis role. Experience in Payments a strong plus</li>
                             <li>Fluent in SQL and proficiency in analytical tools such as Python, R, etc.</li>
