@@ -23,10 +23,10 @@
     <div class="bg-dark-blue padding-top-240 padding-bottom-84" >
         <div class="container-main">
             <div class="d-flex justify-content-end">
-                <img src="{{ asset('images/phone/phone.png') }}" class="img-case-study-solo">
+                <img src="{{ asset('images/phone/phone-crop.png') }}" class="img-case-study-solo">
             </div>
-            <div class="margin-bottom-40">
-                <div class="font-size-18 font-kollektif text-grey padding-top-240 margin-bottom-12">Client</div>
+            <div class="margin-bottom-40 margin-top-16">
+                <div class="font-size-18 font-kollektif text-grey margin-bottom-12">Client</div>
                 <div class="font-size-18 font-kollektif text-white">Felicity</div>
             </div>
             <div class="d-flex justify-content-between height-540">
