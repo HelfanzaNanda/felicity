@@ -16,10 +16,10 @@
 	}
 </style>
 <div style="position: relative;text-align: center;overflow: hidden;height: 100vh;background: #d65244">
-	<video preload="none" class="vidcon hori" style="position: absolute;z-index: 90;">
+	<video preload="none" class="vidcon hori video" style="position: absolute;z-index: 90;">
 	  <source src="" class="vidsource" type="video/mp4">
 	</video>
-	<video preload="none" class="vidbg" muted="" style="position: absolute;z-index: 80;">
+	<video preload="none" class="vidbg video" muted="" style="position: absolute;z-index: 80;">
 	  <source src="" class="vidsource" type="video/mp4">
 	</video>
 	<div class="floating-action next text-center">
@@ -35,7 +35,6 @@
     		width = $(window).width();
     		height = $(window).height();
     		ratio = width/height;
-
     		console.log(width/height);
     		if(width>=height){
     			$('.vidcon, .vidbg').removeClass('veri');

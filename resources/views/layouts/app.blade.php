@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="{{ asset('assets/carousel/css/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/utility.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felicity</title>
   </head>
   <body>
@@ -43,7 +45,7 @@
     </script>
     <script>
       // $('#video').show()
-      $('#video').on('ended',function(){ 
+      $('.video').on('ended',function(){ 
         window.location.href = "{{ url('/home') }}"
         // $(this).hide();
       });

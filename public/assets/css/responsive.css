@@ -1,0 +1,28 @@
+@media (max-width: 768px) { 
+    .bg-gradient-blue-to-dark-blue{
+        width: 100%;
+    }
+    .wafe{
+        height: auto !important;
+    }
+    .container-main{
+        margin: 0 15px !important;
+    }
+    .padding-top-32{
+        padding: 10px;
+    }
+    .padding-bottom-112{
+        padding-bottom: 10px;
+    }
+    .icon-logo{
+        width: 30px;
+        height: 24px;
+    }
+    .toogle-menu{
+        width: 22px;
+        height: 22px;
+    }
+    .font-size-108{
+        font-size: 30px;
+    }
+}

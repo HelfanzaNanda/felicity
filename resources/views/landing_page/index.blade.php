@@ -5,9 +5,9 @@
         <img class="wafe" src="{{ asset('images/header/bg-landing-page-crop.png') }}" alt="">
         <div class="container-main padding-top-32">
             <div class="row justify-content-between padding-bottom-112">
-                <div class="d-inline"><img src="{{ asset('images/logo.png') }}" alt="felicity" width="80" height="60"></div>
-                <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" width="44" height="44">
-                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close.png') }}" width="44" height="44">
+                <div class="d-inline"><img class="icon-logo" src="{{ asset('images/logo.png') }}" alt="felicity"></div>
+                <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" >
+                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close.png') }}">
             </div>
         </div>
         <div class="header" style="transition: all 0.3s ease;">
@@ -26,7 +26,7 @@
         </div>
     </div>
 
-    <div class="bg-dark-blue padding-top-84 padding-bottom-84">
+    {{-- <div class="bg-dark-blue padding-top-84 padding-bottom-84">
         <div class="container-main">
             <div class="hero-section">
                 <div class="d-flex justify-content-between margin-bottom-144">
@@ -319,7 +319,7 @@
             </div>
 
         </div>
-    </div>
+    </div> --}}
 
 @endsection
 
