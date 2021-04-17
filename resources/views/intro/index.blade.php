@@ -41,17 +41,17 @@
     			$('.vidcon, .vidbg').removeClass('veri');
     			$('.vidcon, .vidbg').addClass('hori');
     			if(ratio>1.6){
-	    			$('.vidsource').attr('src','{{ asset('videos/opening16x9.mp4') }}');
+	    			$('.vidsource').attr('src','{{ asset('videos/Opening16x9.mp4') }}');
     			}else{
-	    			$('.vidsource').attr('src','{{ asset('videos/opening1x1.mp4') }}');
+	    			$('.vidsource').attr('src','{{ asset('videos/Opening1x1.mp4') }}');
 	    		}
     		}else{
     			$('.vidcon, .vidbg').removeClass('hori');
     			$('.vidcon, .vidbg').addClass('veri');
     			if(ratio>0.8){
-    				$('.vidsource').attr('src','{{ asset('videos/opening4x5.mp4') }}');
+    				$('.vidsource').attr('src','{{ asset('videos/Opening4x5.mp4') }}');
     			}else{
-    				$('.vidsource').attr('src','{{ asset('videos/opening9x16.mp4') }}');
+    				$('.vidsource').attr('src','{{ asset('videos/Opening9x16.mp4') }}');
     			}    			
     		}
     		$('.vidcon, .vidbg').each(function(){
