@@ -17,13 +17,12 @@
                 </div>
             </div>
         </div>
-   
     </div>
 
     <div class="bg-dark-blue padding-top-84 padding-bottom-84">
         <div class="container-main">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
+            <div class="d-sm-block d-md-flex justify-content-between margin-bottom-sm-10">
+                <div class="width-sm-full width-500">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
@@ -43,19 +42,19 @@
                     </div>
                     <div class="border-find"></div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="circle1-work float-right">
+                <div class="width-sm-full width-500">
+                    <div class="circle1-work">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="d-sm-block d-md-flex">
                 <div class="d-none d-md-block col-lg-6 col-md-6">
                     <div class="circle3-work">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="width-sm-full width-500">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
