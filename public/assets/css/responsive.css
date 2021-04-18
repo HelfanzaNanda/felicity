@@ -1,5 +1,8 @@
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .bg-gradient-blue-to-dark-blue{
+        width: 100%;
+    }
+    .bg-yellow{
         width: 100%;
     }
     .wafe{
@@ -24,6 +27,27 @@
     }
     .font-size-108{
         font-size: 80px;
+    }
+    .title-study-sm-page{
+        font-family: Kollektif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 110%;
+        text-align: center;
+        color: #1A1A1A;
+    }
+    .circle1-sm-work{
+        width: 230px;
+        height: 230px;
+        background: #FFC300;
+        border-radius: 240px;
+        margin-top: 80px;
+    }
+    .img-phone{
+        width: 140px;
+        height: 210px;
+        align-items: center;
     }
     .margin-bottom-178 {
         margin-bottom: 130px !important;

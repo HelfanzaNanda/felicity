@@ -16,12 +16,11 @@
                     <div><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
                     <div><img src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44"></div>
                 </div> --}}
-                <div class="title-study-page">Raising the <br>
+                <div class="title-study-page title-study-sm-page">Raising the <br>
                     <span>standards 🔥</span>
                 </div>
             </div>
         </div>
-   
     </div>
 
     <div class="bg-dark-blue padding-top-84 padding-bottom-84">
@@ -48,8 +47,8 @@
                     <div class="border-find"></div>
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <div class="circle1-work float-right">
-                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
+                    <div class="circle1-work circle1-sm-work float-right">
+                        <img src="{{ asset('images/phone/phone.png') }}" class="img-phone" alt="">
                     </div>
                 </div>
             </div>
