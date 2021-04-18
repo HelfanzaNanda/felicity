@@ -26,12 +26,12 @@
         </div>
     </div>
 
-    {{-- <div class="bg-dark-blue padding-top-84 padding-bottom-84">
+    <div class="bg-dark-blue padding-top-84 padding-bottom-84">
         <div class="container-main">
             <div class="hero-section">
-                <div class="d-flex justify-content-between margin-bottom-144">
-                    <div class="width-569 height-210 margin-right-66 font-size-50 font-weight-500 text-white">we work closely to help you digitalise your brand</div>
-                    <div class="width-475 height-200 font-size-16">
+                <div class="d-sm-block d-md-flex justify-content-between margin-bottom-144">
+                    <div class="width-sm-full height-sm-full width-569 height-210 margin-right-66 font-size-50 font-weight-500 text-white">we work closely to help you digitalise your brand</div>
+                    <div class="width-sm-full height-sm-full width-475 height-200 font-size-16">
                         <div class="text-grey margin-bottom-40">
                             Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
                             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
@@ -47,8 +47,8 @@
 
 
             <div class="service-section">
-                <div class="d-flex justify-content-between">
-                    <div class="width-450">
+                <div class="d-sm-block d-md-flex justify-content-between">
+                    <div class="width-sm-full width-450">
                         <div class="margin-bottom-70">
                             <a data-toggle="collapse" href="#design" role="button" aria-expanded="false" aria-controls="collapseExample"
                              onclick="collapseDesign()" class="btn-collapse design text-white margin-bottom-25 font-size-26 font-weight-700">✏️  Design &nbsp; 
@@ -91,7 +91,7 @@
                         </div>
 
                     </div>
-                    <div class="width-450">
+                    <div class="width-sm-full width-450">
                         <div class="font-size-50 text-white margin-bottom-40">we provide various services</div>
                         <div class="text-grey margin-bottom-40">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
                             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -105,10 +105,10 @@
             </div>
 
             <div class="team-section">
-                <div class="d-flex justify-content-between">
-                    <div class="width-450">
-                        <div class="text-white font-size-50 margin-bottom-192">the team that makes it possible</div>
-                        <div class="margin-bottom-136">
+                <div class="d-sm-block d-md-flex justify-content-between">
+                    <div class="width-sm-full width-450">
+                        <div class="text-white font-size-50 margin-bottom-sm-10 margin-bottom-192">the team that makes it possible</div>
+                        <div class="margin-bottom-136 margin-bottom-sm-30">
                             <div class="margin-bottom-24"><img class="img-team" src="{{ asset('images/peoples/people1.png') }}" alt=""></div>
                             <div class="d-flex justify-content-between text-white">
                                 <div class="font-size-22 font-weight-700">Viacheslav Oliede</div>
@@ -120,7 +120,7 @@
                                 <a href=""><img src="{{ asset('images/social-media/twitter.png') }}" width="36" height="36"></a>
                             </div>
                         </div>
-                        <div>
+                        <div class="margin-bottom-sm-30">
                             <div class="margin-bottom-24"><img class="img-team" src="{{ asset('images/peoples/people1.png') }}" alt=""></div>
                             <div class="d-flex justify-content-between text-white">
                                 <div class="font-size-22 font-weight-700">Viacheslav Oliede</div>
@@ -135,9 +135,11 @@
 
 
                     </div>
-                    <div class="width-450">
-                        <div class="margin-bottom-136">
-                            <div class="margin-bottom-24"><img class="img-team" src="{{ asset('images/peoples/people1.png') }}" alt=""></div>
+                    <div class="width-sm-full width-450">
+                        <div class="margin-bottom-136 margin-bottom-sm-30">
+                            <div class="margin-bottom-24">
+                                <img class="img-team" src="{{ asset('images/peoples/people1.png') }}" alt="">
+                            </div>
                             <div class="d-flex justify-content-between text-white">
                                 <div class="font-size-22 font-weight-700">Viacheslav Oliede</div>
                                 <div class="font-size-20">CEO</div>
@@ -148,7 +150,7 @@
                                 <a href=""><img src="{{ asset('images/social-media/twitter.png') }}" width="36" height="36"></a>
                             </div>
                         </div>
-                        <div>
+                        <div class="margin-bottom-sm-30"> 
                             <div class="margin-bottom-24"><img class="img-team" src="{{ asset('images/peoples/people1.png') }}" alt=""></div>
                             <div class="d-flex justify-content-between text-white">
                                 <div class="font-size-22 font-weight-700">Viacheslav Oliede</div>
@@ -166,15 +168,15 @@
 
             <div class="banner-section">
                 <div class="banner bg-purple">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8">
-                            <div class="padding-48">
-                                <div class="margin-bottom-32 font-size-40 text-white font-weight-700">Be a part of our awesome <br> team</div>
+                    <div class="d-sm-flex d-md-flex justify-content-between">
+                        <div>
+                            <div class="padding-banner">
+                                <div class=" font-size-40 margin-bottom-32 text-white font-weight-700">Be a part of our awesome <br> team</div>
                                 <button class="btn bg-dark-blue width-240 height-62 text-white font-size-20">Join Us</button>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4">
-                            <img src="{{ asset('images/team.png') }}" class="float-right" alt="">
+                        <div>
+                            <img src="{{ asset('images/team.png') }}" class="d-none d-md-block float-right" alt="">
                         </div>
                     </div>
                 </div>
@@ -182,13 +184,13 @@
 
             <!-- Start Our Work -->
             <div class="our-work"> Our Work </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
+            <div class="d-sm-block d-md-flex justify-content-between">
+                <div class="width-sm-full width-500">
                     <div class="circle1-work">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="width-sm-full width-500">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
@@ -209,8 +211,8 @@
                     <div class="border-find"></div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
+            <div class="d-sm-block d-md-flex justify-content-between">
+                <div class="width-sm-full width-500">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
@@ -230,7 +232,7 @@
                     </div>
                     <div class="border-find"></div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="width-sm-full width-500">
                     <div class="circle2-work float-right">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
@@ -297,7 +299,7 @@
         </div>
     </div>
 
-    <div class="height-500 bg-footer">
+    {{-- <div class="height-500 bg-footer">
         <div class="container-main">
             <div class="margin-bottom-40 padding-top-80 text-white font-size-72 font-kollektif font-weight-700">Let’s Talk</div>
             <div class="font-kollektif font-size-32 text-white margin-bottom-80"><u>hello@felicitymedia.in </u></div>

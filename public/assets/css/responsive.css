@@ -6,13 +6,13 @@
         height: auto !important;
     }
     .container-main{
-        margin: 0 15px !important;
+        margin: 0 15px
     }
     .padding-top-32{
         padding: 10px;
     }
     .padding-bottom-112{
-        padding-bottom: 10px;
+        padding-bottom: 32px;
     }
     .icon-logo{
         width: 30px;
@@ -23,6 +23,71 @@
         height: 22px;
     }
     .font-size-108{
-        font-size: 30px;
+        font-size: 80px;
+    }
+    .margin-bottom-178 {
+        margin-bottom: 130px !important;
+    }
+    .width-sm-full{
+        width: 100%;
+    }
+    .height-sm-full{
+        height: 100%;
+    }
+    .margin-bottom-144 {
+        margin-bottom: 50px;
+    }
+    .img-team{
+        width: 100%;
+        height: auto;
+        border-radius: 24px;
+    }
+    .img-hero {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+    .margin-bottom-sm-30{
+        margin-bottom: 30px !important;
+    }
+    .margin-bottom-sm-10{
+        margin-bottom: 10px !important;
+    }
+    .service-section {
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    .team-section {
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    .banner-section {
+        height: 100%;
+        padding-bottom: 10px;
+    }
+    .padding-banner{
+        padding: 20px 0 20px 20px;
+    }
+    .our-work {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+    .circle1-work{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .circle1-work,.circle1-work img{
+        width: 100%;
+        height: 100%;
+    }
+    .title-desc-our-work{
+        margin-top: 0;
+    }
+    .circle2-work{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
     }
 }

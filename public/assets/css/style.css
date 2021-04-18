@@ -73,6 +73,9 @@ img.wafe{
 .hero-section{
     height: 988px;
 }
+.padding-banner{
+    padding: 48px 0 48px 48px;
+}
 .img-hero{
     height: 400px;
     width: 100%;
