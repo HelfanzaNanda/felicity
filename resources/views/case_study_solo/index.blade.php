@@ -20,7 +20,7 @@
        
     </div>
 
-    <div class="bg-dark-blue padding-top-240 padding-bottom-84" >
+    <div class="bg-dark-blue padding-top-240 padding-top-sm-0 padding-bottom-84" >
         <div class="container-main">
             <div class="d-flex justify-content-end">
                 <img src="{{ asset('images/phone/phone-crop.png') }}" class="img-case-study-solo">
@@ -29,55 +29,54 @@
                 <div class="font-size-18 font-kollektif text-grey margin-bottom-12">Client</div>
                 <div class="font-size-18 font-kollektif text-white">Felicity</div>
             </div>
-            <div class="d-flex justify-content-between height-540">
+            <div class="d-sm-block d-md-flex justify-content-between height-sm-full height-540">
                 <div>
                     <div class="font-size-18 font-kollektif text-grey margin-bottom-12">Location</div>
                     <div class="font-size-18 font-kollektif text-white">Big Project Headline 1</div>
                     <div class="font-size-18 font-kollektif text-grey margin-bottom-12 padding-top-40">Work</div>
-                    <div class="font-size-18 font-kollektif text-white width-475">Sed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipi.</div>
+                    <div class="font-size-18 font-kollektif text-white width-sm-full width-475">Sed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipi.</div>
                 </div>
                 <div>
-                    <img src="{{ asset('images/maps.png') }}" height="540" width="540">
+                    <img src="{{ asset('images/maps.png') }}" class="img-study-solo">
                 </div>
             </div>
 
-            <div class="d-flex justify-content-between">
-                <div><img src="{{ asset('images/phone/phone3.png') }}" alt=""></div>
+            <div class="d-sm-block d-md-flex justify-content-between">
+                <div class="d-none d-sm-block"><img src="{{ asset('images/phone/phone3.png') }}" class="img-study-solo"></div>
                 <div>
-                    <div class="text-white margin-top-95 font-size-50 font-weight-600">✏️  Design</div>
+                    <div class="text-white margin-top-95 margin-top-sm-20 font-size-50 font-weight-600">✏️  Design</div>
                     <div class="font-size-18 font-kollektif margin-bottom-12 text-grey padding-top-40">Research</div>
-                    <div class="font-size-18 font-kollektif text-white width-475">Sed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipi.</div>
+                    <div class="font-size-18 font-kollektif text-white width-sm-full width-475">Sed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipi.</div>
                 </div>
+                <div class="d-block d-sm-none"><img src="{{ asset('images/phone/phone3.png') }}" class="img-study-solo"></div>
             </div>
 
-            <div class="d-flex justify-content-between margin-top-73">
+            <div class="d-sm-block d-md-flex justify-content-between margin-top-73">
                 <div>
                     <div class="text-white margin-top-95 font-size-50 font-weight-600">📢  Marketing</div>
                     <div class="font-size-18 font-kollektif margin-bottom-12 text-grey padding-top-40">Research</div>
-                    <div class="font-size-18 font-kollektif text-white width-475">Sed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipi.</div>
+                    <div class="font-size-18 font-kollektif text-white width-sm-full width-475">Sed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sedSed ut pporro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipi.</div>
                 </div>
-                <div>
-                    <img src="{{ asset('images/phone/phone3.png') }}" alt="">
-                </div>
+                <div> <img src="{{ asset('images/phone/phone3.png') }}" class="img-study-solo"> </div>
             </div>
 
 
-            <div class="d-flex justify-content-between margin-top-308">
-                <div>
+            <div class="d-sm-block d-md-flex justify-content-between margin-top-308 margin-top-sm-20">
+                <div class="margin-bottom-sm-10">
                     <div class="rectangle bg-yellow text-center d-flex justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div>
+                <div class="margin-bottom-sm-10">
                     <div class="rectangle bg-purple-2 text-center d-flex justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div>
+                <div class="margin-bottom-sm-10">
                     <div class="rectangle bg-pink text-center d-flex justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>

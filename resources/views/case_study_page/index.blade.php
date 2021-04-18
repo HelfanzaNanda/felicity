@@ -12,11 +12,7 @@
         </div>
         <div class="header">
             <div class="container-main padding-top-32 margin-bottom-178">
-                {{-- <div class="d-flex justify-content-between margin-bottom-112">
-                    <div><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
-                    <div><img src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44"></div>
-                </div> --}}
-                <div class="title-study-page">Raising the <br>
+                <div class="title-study-page font-size-sm-77">Raising the <br>
                     <span>standards 🔥</span>
                 </div>
             </div>
@@ -54,7 +50,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="d-none d-md-block col-lg-6 col-md-6">
                     <div class="circle3-work">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
@@ -79,26 +75,31 @@
                     </div>
                     <div class="border-find"></div>
                 </div>
+                <div class="col-12 d-md-none col-lg-6 col-md-6">
+                    <div class="circle3-work">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
+                    </div>
+                </div>
 
             </div>
             <!-- End Our Work -->
 
-            <div class="d-flex justify-content-between padding-top-84">
-                <div>
+            <div class="d-sm-block d-md-flex justify-content-between padding-top-84">
+                <div class="width-sm-full d-sm-flex justify-content-center">
                     <div class="rectangle bg-yellow text-center d-flex justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div>
+                <div class="width-sm-full d-sm-flex justify-content-center">
                     <div class="rectangle bg-purple-2 text-center d-flex justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div>
+                <div class="width-sm-full d-sm-flex justify-content-center">
                     <div class="rectangle bg-pink text-center d-flex justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>

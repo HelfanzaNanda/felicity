@@ -17,7 +17,7 @@
 <div class="bg-dark-blue margin-bottom-84">
     <div class="container-main padding-top-80">
         <div class="service-section">
-            <div class="d-sm-block d-md-flex margin-bottom-80 height-538 justify-content-between">
+            <div class="d-sm-block d-md-flex margin-bottom-80 height-sm-full height-538 justify-content-between">
                 <div class="width-500 width-sm-full">
                     <div class="margin-bottom-70 margin-top-sm-0 margin-top-70">
                         <div class="text-white margin-bottom-25 font-size-45 font-kollektif font-weight-700">✏️  Design </div>
@@ -32,11 +32,11 @@
                     <img class="img-capabilities" src="{{ asset('images/think-outsite.png') }}" >
                 </div>
             </div>
-            <div class="d-flex height-538 justify-content-between">
-                <div class="width-403">
-                    <img class="img-capabilities" src="{{ asset('images/think-outsite.png') }}">
+            <div class="d-sm-block d-md-flex height-sm-full height-538 justify-content-between">
+                <div class="width-sm-full width-403">
+                    <img class="d-none d-md-block img-capabilities" src="{{ asset('images/think-outsite.png') }}">
                 </div>
-                <div class="width-500 ">
+                <div class="width-sm-full width-500 ">
                     <div class="margin-bottom-70 margin-top-70">
                         <div class="text-white margin-bottom-25 font-size-45 font-kollektif font-weight-700">🎯  Felicity Growth</div>
                         <div class="text-grey margin-bottom-40">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
@@ -45,6 +45,9 @@
                         </div>
                         <div class="border-find"></div>
                     </div>
+                </div>
+                <div class="width-sm-full">
+                    <img class="d-block d-md-none img-capabilities" src="{{ asset('images/think-outsite.png') }}">
                 </div>
             </div>
         </div>

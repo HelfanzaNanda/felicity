@@ -21,8 +21,8 @@
 <div class="padding-top-84 margin-bottom-84">
     <div class="container-main">
         <div class="margin-top-n-165 position-relative margin-bottom-48 bg-white">
-            <div class="margin-x-65 padding-top-116">
-                <div class="row nav tabs margin-bottom-80" role="tablist">
+            <div class="container-main padding-top-116">
+                <div class="d-flex nav tabs margin-bottom-80" role="tablist">
                     <a class="margin-right-48 active" href="#role" data-toggle="tab">Role Overview</a>
                     <a class="" href="#app" data-toggle="tab">Application</a>
                 </div>
