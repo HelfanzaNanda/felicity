@@ -184,6 +184,10 @@ img.wafe{
     color: #FFFFFF;
     margin-bottom: 80px;
 }
+.imamge-insights{
+    width: 100%;
+    height: 450px;
+}
 .img-insights{
     width: 300px;
     height: 300px;
@@ -431,6 +435,10 @@ footer{
 .line-detail{
     border-bottom: 1px solid #E8E7E7;
     width: 695px;
+}
+.img-capabilities{
+    width: 403px;
+    height: 538px;
 }
 .desc-detail-insights{
     font-family: Kollektif;

@@ -19,11 +19,11 @@
         <div class="container-main">
             <div class="margin-top-n-280 margin-bottom-48">
                 <div class="card" style="border-color: white">
-                    <div class="margin-left-65">
+                    <div class="margin-left-65 margin-x-sm-10">
                         <div class="title1-detail-insights"> Finibus Bonorum et Malorum </div>
                         <hr class="line-detail" align="left">
-                        <div class="d-flex">
-                            <div class="width-760 margin-right-40">
+                        <div class="d-sm-block d-md-flex">
+                            <div class="width-sm-full width-760 margin-right-sm-0 margin-right-40">
                                 <div class="d-flex justify-content-between">
                                     <div class="creator-name">
                                         Written by John doe
@@ -129,7 +129,7 @@
                                     consequatur aut perferendis doloribus asperiores repellat."
                                 </div>
                             </div>
-                            <div class="width-310">
+                            <div class="width-sm-full width-310 margin-top-sm-10">
                                 <div class="margin-bottom-40">
                                     <img src="{{ asset('images/insights/laptop.png') }}" alt="">
                                     <div class="title4-detail-insights">
@@ -163,21 +163,23 @@
                         </div>
                         
                         <hr class="line-detail" align="left">
-                        <div class="row padding-top-32 margin-left-48 margin-bottom-192">
-                            <img src="{{ asset('images/insights/emoji-hand-black.png') }}" width="28" height="25">
-                            <div class="emoji-text text-black">
-                                2.1K claps
+                        <div class="d-sm-block d-md-flex padding-top-32 margin-left-sm-0 margin-left-48 margin-bottom-192">
+                            <div class="d-flex margin-bottom-sm-10">
+                                <img src="{{ asset('images/insights/emoji-hand-black.png') }}" width="28" height="25">
+                                <div class="emoji-text text-black"> 2.1K claps </div>
                             </div>
-                            <img src="{{ asset('images/insights/comment-black.png') }}" width="26" height="26">
-                            <div class="emoji-text text-black">
-                                40 Comments
+                            <div class="d-flex margin-bottom-sm-10">
+                                <img src="{{ asset('images/insights/comment-black.png') }}" width="26" height="26">
+                                <div class="emoji-text text-black"> 40 Comments </div>
                             </div>
-                            <img src="{{ asset('images/insights/share-black.png') }}" class="ml-5" width="27" height="22">
-                            <div class="emoji-text text-black">
-                                Share
+                            <div class="d-flex margin-bottom-sm-10">
+                                <img src="{{ asset('images/insights/share-black.png') }}" class="margin-left-sm-0 ml-5" width="27" height="22">
+                                <div class="emoji-text text-black"> Share </div>
                             </div>
-                            <img src="{{ asset('images/icons/fb.png') }}" class="ml-5" width="24" height="24">
-                            <img src="{{ asset('images/icons/twitter.png') }}" class="ml-4" width="27" height="22">
+                            <div class="d-flex">
+                                <img src="{{ asset('images/icons/fb.png') }}" class="margin-left-sm-0 ml-5" width="24" height="24">
+                                <img src="{{ asset('images/icons/twitter.png') }}" class="ml-4" width="27" height="22">
+                            </div>
                         </div>
                     </div>
                 </div>

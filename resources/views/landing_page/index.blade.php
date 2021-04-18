@@ -184,7 +184,7 @@
 
             <!-- Start Our Work -->
             <div class="our-work"> Our Work </div>
-            <div class="d-sm-block d-md-flex justify-content-between">
+            <div class="d-sm-block d-md-flex justify-content-between margin-bottom-sm-10">
                 <div class="width-sm-full width-500">
                     <div class="circle1-work">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
@@ -211,7 +211,7 @@
                     <div class="border-find"></div>
                 </div>
             </div>
-            <div class="d-sm-block d-md-flex justify-content-between">
+            <div class="d-sm-block d-md-flex justify-content-between margin-bottom-sm-10">
                 <div class="width-sm-full width-500">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
@@ -242,30 +242,30 @@
 
             <!-- Start Insights -->
             <div class="insights"> Insights </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
+            <div class="d-sm-block d-md-flex justify-content-between">
+                <div class="margin-bottom-sm-10" >
                     <img src="{{ asset('images/insights/image1.png') }}" class="img-insights" alt="">
                     <div class="title-insights">
                         Finibus Bonorum et Malorum
                     </div>
-                    <div class="row mt-3">
-                            <img src="{{ asset('images/insights/emoji-hand.png') }}" alt="">
-                            <div class="emoji-text">
-                                2.1K claps
-                            </div>
-                            <img src="{{ asset('images/insights/comment.png') }}" alt="">
-                            <div class="emoji-text">
-                                40 Comments
-                            </div>
+                    <div class="d-flex mt-3">
+                        <img src="{{ asset('images/insights/emoji-hand.png') }}" alt="">
+                        <div class="emoji-text">
+                            2.1K claps
+                        </div>
+                        <img src="{{ asset('images/insights/comment.png') }}" alt="">
+                        <div class="emoji-text">
+                            40 Comments
+                        </div>
                     </div>
 
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="margin-bottom-sm-10" >
                     <img src="{{ asset('images/insights/image2.png') }}" class="img-insights" alt="">
                     <div class="title-insights">
                         Finibus Bonorum et Malorum
                     </div>
-                    <div class="row mt-3">
+                    <div class="d-flex mt-3">
                             <img src="{{ asset('images/insights/emoji-hand.png') }}" alt="">
                             <div class="emoji-text">
                                 2.1K claps
@@ -277,12 +277,12 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="margin-bottom-sm-10" >
                     <img src="{{ asset('images/insights/image3.png') }}" class="img-insights" alt="">
                     <div class="title-insights">
                         Finibus Bonorum et Malorum
                     </div>
-                    <div class="row mt-3">
+                    <div class="d-flex mt-3">
                             <img src="{{ asset('images/insights/emoji-hand.png') }}" alt="">
                             <div class="emoji-text">
                                 2.1K claps
@@ -299,14 +299,14 @@
         </div>
     </div>
 
-    {{-- <div class="height-500 bg-footer">
+    <div class="height-500 height-sm-full bg-footer">
         <div class="container-main">
             <div class="margin-bottom-40 padding-top-80 text-white font-size-72 font-kollektif font-weight-700">Let’s Talk</div>
             <div class="font-kollektif font-size-32 text-white margin-bottom-80"><u>hello@felicitymedia.in </u></div>
             <div class="d-flex">
                 <div class="text-white font-kollektif margin-right-auto font-size-22">300 Broadway, Suite 23 <br>
                     San Francisco, CA 94133</div>
-                <div class="d-flex">
+                <div class="d-sm-block d-md-flex">
                     <div class="margin-right-52">
                         <a href="" class="d-block text-white font-kollektif font-size-16">Case studies</a>
                         <a href="" class="d-block text-white font-kollektif font-size-16">Process</a>
@@ -321,7 +321,7 @@
             </div>
 
         </div>
-    </div> --}}
+    </div>
 
 @endsection
 
