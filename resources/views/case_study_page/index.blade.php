@@ -25,8 +25,8 @@
 
     <div class="bg-dark-blue padding-top-84 padding-bottom-84">
         <div class="container-main">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
+            <div class="d-sm-block d-md-flex justify-content-between margin-bottom-sm-10">
+                <div class="width-sm-full width-500">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
@@ -46,19 +46,19 @@
                     </div>
                     <div class="border-find"></div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="circle1-work circle1-sm-work float-right">
-                        <img src="{{ asset('images/phone/phone.png') }}" class="img-phone" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="circle3-work">
+                <div class="width-sm-full width-500">
+                    <div class="circle1-work">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+            </div>
+            <div class="d-sm-block d-md-flex justify-content-between margin-bottom-sm-10">
+                <div class="width-sm-full width-500">
+                    <div class="circle2-work float-right">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="width-sm-full width-500">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
@@ -78,27 +78,26 @@
                     </div>
                     <div class="border-find"></div>
                 </div>
-
             </div>
             <!-- End Our Work -->
 
-            <div class="d-flex justify-content-between padding-top-84">
-                <div>
-                    <div class="rectangle bg-yellow text-center d-flex justify-content-center">
+            <div class="d-sm-block d-md-flex justify-content-between padding-top-84">
+                <div class="width-sm-full width-500">
+                    <div class="rectangle bg-yellow text-center justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div>
-                    <div class="rectangle bg-purple-2 text-center d-flex justify-content-center">
+                <div class="width-sm-full width-500">
+                    <div class="rectangle bg-purple-2 text-center justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div>
-                    <div class="rectangle bg-pink text-center d-flex justify-content-center">
+                <div class="width-sm-full width-500">
+                    <div class="rectangle bg-pink text-center justify-content-center">
                         <img src="{{ asset('images/phone/phone.png') }}" alt="">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>

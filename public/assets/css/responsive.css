@@ -58,6 +58,9 @@
     .height-sm-full{
         height: 100%;
     }
+    .margin-bottom-sm-10 {
+        margin-bottom: 10px;
+    }
     .margin-bottom-144 {
         margin-bottom: 50px;
     }
@@ -78,13 +81,55 @@
     .margin-bottom-sm-10{
         margin-bottom: 10px !important;
     }
+    .margin-top-sm-0{
+        margin-top: 0 !important;
+    }
+    .margin-top-sm-10{
+        margin-top: 10px !important;
+    }
+    .line-detail{
+        width: 100%;
+    }
+    .img-capabilities{
+        width: 100%;
+        height: 333px;
+    }
+    .margin-top-sm-n-160{
+        margin-top: -160px;
+    }
+    .font-size-sm-77{
+        font-size: 77px;
+    }
+    .margin-right-sm-0{
+        margin-right: 0;
+    }
+    .justify-content-sm-between{
+        justify-content: space-between;
+    }
+    .padding-top-sm-0{
+        padding-top: 0;
+    }
+    .height-sm-auto{
+        height: auto;
+    }
+    .date-insights{
+        float: none;
+    }
     .service-section {
         height: 100%;
         padding-bottom: 10px;
     }
+    .header-landing-page{
+        width: auto;
+        height: auto;
+    }
     .team-section {
         height: 100%;
         padding-bottom: 10px;
+    }
+    .imamge-insights{
+        width: 100%;
+        height: auto;
     }
     .banner-section {
         height: 100%;
@@ -97,21 +142,59 @@
         padding-top: 0;
         padding-bottom: 10px;
     }
-    .circle1-work{
+    .circle1-work, .circle2-work{
         width: 100%;
         height: auto;
         margin-top: 10px;
     }
-    .circle1-work,.circle1-work img{
+    .circle1-work img, .circle2-work img{
         width: 100%;
         height: 100%;
     }
     .title-desc-our-work{
         margin-top: 0;
     }
-    .circle2-work{
+    .insights{
+        margin-bottom: 0;
+    }
+    .img-insights{
         width: 100%;
-        height: auto;
+    }
+    .margin-right-sm-0{
+        margin-right: 0;
+    }
+    .margin-x-sm-10{
+        margin: 0 10px;
+    }
+    .margin-left-sm-0{
+        margin-left: 0 !important;
+    }
+    .title-insights{
         margin-top: 10px;
+    }
+    .read-more-insights{
+        padding-top: 10px;
+    }
+    .title-header-sm-privacy-policy{
+        font-family: Kollektif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 110%;
+        text-align: center;
+        color: #1A1A1A;
+        padding-top: 80px;
+        padding-bottom: 112px;
+    }
+    .title-header-sm-terms{
+        font-family: Kollektif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 110%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-top: 80px;
+        padding-bottom: 112px;
     }
 }
