@@ -4,10 +4,10 @@
         <x-menu-text-black/>
         <div class="container-main padding-top-32 margin-bottom-24">
             <div class="row justify-content-between margin-bottom-24">
-                <div class="d-inline"><img src="{{ asset('images/logo-black.png') }}" alt="felicity" width="80" height="60"></div>
+                <div class="d-inline"><img class="icon-logo" src="{{ asset('images/logo-black.png') }}" alt="felicity"></div>
                 <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" 
                 src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44">
-                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close.png') }}" width="44" height="44">
+                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close-black.png') }}" width="44" height="44">
             </div>
         </div>
         <div class="header">
