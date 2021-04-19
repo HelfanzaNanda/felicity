@@ -147,11 +147,17 @@
         height: 40px;
         width: 40px;
     }
+    .font-size-sm-80{
+        font-size: 80px;
+    }
     .font-size-sm-18{
         font-size: 18px;
     }
     .font-size-sm-20{
         font-size: 20px;
+    }
+    .height-sm-auto{
+        height: auto !important;
     }
     .menu{
         margin-top: 70px;

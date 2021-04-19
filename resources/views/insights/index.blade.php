@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <div class="header-landing-page bg-white">
+    <div class="header-landing-page height-sm-auto bg-white">
         <x-menu-text-black/>
         <div class="container-main padding-top-32">
             <div class="row justify-content-between padding-bottom-112">

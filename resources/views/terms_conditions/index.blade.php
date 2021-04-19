@@ -11,7 +11,7 @@
         </div>
         <div class="header">
             <div class="container-main padding-top-32 margin-bottom-24">
-                <div class="title-header-terms title-header-sm-terms">
+                <div class="title-header-terms title-header-sm-terms font-size-sm-80">
                     Terms and <br>conditions 📃
                 </div>
             </div>
@@ -21,7 +21,7 @@
     <div class="bg-white">
         <div class="container-main">
             <div class="panel position-relative bg-white  margin-top-n-70">
-                <div class="margin-x-65 ">
+                <div class="container-main">
                     <div class="font-size-22 font-weight-600 padding-top-116 margin-bottom-16">Updated March 29, 2021</div>
                     <hr class="margin-bottom-80">
                     <div class="font-size-28 margin-bottom-20 font-weight-700">The Challange</div>

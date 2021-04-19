@@ -11,7 +11,7 @@
     </div>
     <div class="header">
         <div class="container-main padding-top-32 margin-bottom-178">
-            <div class="font-kollektif line-height-86 font-weight-700 font-size-88 text-white margin-bottom-16">Sr Data Scientist, <br> Payments</div>
+            <div class="font-kollektif line-height-86 font-weight-700 font-size-88 font-size-sm-80 text-white margin-bottom-16">Sr Data Scientist, <br> Payments</div>
             <div class="text-grey">Bangalore, India</div>
         </div>
     </div>
