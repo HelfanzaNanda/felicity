@@ -1,28 +1,25 @@
 @extends('layouts.app')
 @section('content')
-    <div class="header-landing-page bg-yellow">
-        <x-menu-text-black/>
-        <img class="wafe" src="{{ asset('images/header/bg-header-yellow-crop.png') }}" alt="">
-        <div class="container-main padding-top-32">
-            <div class="row justify-content-between padding-bottom-112">
-                <div class="d-inline"><img class="icon-logo" src="{{ asset('images/logo-black.png') }}" alt="felicity"></div>
-                <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44">
-                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close-black.png') }}" width="44" height="44">
-            </div>
-        </div>
-        <div class="header">
+    <div class="header-landing-page ">
+    
+        @include('components.menu',['dark'=>true])
+        @include('layouts.__wave')
+        @include('layouts.__navigation',['dark'=>true])
+            
+    
+    </div>
+        <div class="header bg-yellow padding-header" style="height: 100vh">
             <div class="container-main padding-top-32 margin-bottom-178">
                 <div class="title-study-page font-size-sm-77">Raising the <br>
                     <span>standards 🔥</span>
                 </div>
             </div>
         </div>
-    </div>
 
     <div class="bg-dark-blue padding-top-84 padding-bottom-84">
         <div class="container-main">
-            <div class="d-sm-block d-md-flex justify-content-between margin-bottom-sm-10">
-                <div class="width-sm-full width-500">
+            <div class="row justify-content-between mb-4 align-items-center">
+                <div class="col-md-6">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
@@ -42,19 +39,19 @@
                     </div>
                     <div class="border-find"></div>
                 </div>
-                <div class="width-sm-full width-500">
+                <div class="col-md-6">
                     <div class="circle1-work">
-                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="" style="width: 100%">
                     </div>
                 </div>
             </div>
-            <div class="d-sm-block d-md-flex">
-                <div class="d-none d-md-block col-lg-6 col-md-6">
+            <div class="row justify-content-between mb-4 align-items-center">
+                <div class="col-md-6">
                     <div class="circle3-work">
-                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="" style="width: 100%">
                     </div>
                 </div>
-                <div class="width-sm-full width-500">
+                <div class="col-md-6">
                     <div class="title-desc-our-work">
                         Big Project Headline 1
                     </div>
@@ -73,34 +70,29 @@
                         Find Out More
                     </div>
                     <div class="border-find"></div>
-                </div>
-                <div class="col-12 d-md-none col-lg-6 col-md-6">
-                    <div class="circle3-work">
-                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
-                    </div>
                 </div>
 
             </div>
             <!-- End Our Work -->
 
-            <div class="d-sm-block d-md-flex justify-content-between padding-top-84">
-                <div class="width-sm-full d-sm-flex justify-content-center">
-                    <div class="rectangle bg-yellow text-center d-flex justify-content-center">
-                        <img src="{{ asset('images/phone/phone.png') }}">
+            <div class="row justify-content-between padding-top-84">
+                <div class="col-md-4 justify-content-center">
+                    <div class="rectangle bg-yellow text-center">
+                        <img src="{{ asset('images/phone/phone.png') }}" style="width: 100%">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div class="width-sm-full d-sm-flex justify-content-center">
-                    <div class="rectangle bg-purple-2 text-center d-flex justify-content-center">
-                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
+                <div class="col-md-4 justify-content-center">
+                    <div class="rectangle bg-purple-2 text-center">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="" style="width: 100%">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
                 </div>
-                <div class="width-sm-full d-sm-flex justify-content-center">
-                    <div class="rectangle bg-pink text-center d-flex justify-content-center">
-                        <img src="{{ asset('images/phone/phone.png') }}" alt="">
+                <div class="col-md-4 justify-content-center">
+                    <div class="rectangle bg-pink text-center">
+                        <img src="{{ asset('images/phone/phone.png') }}" alt="" style="width: 100%">
                     </div>
                     <div class="font-size-28 font-weight-600 text-white margin-top-32 margin-bottom-8">Big Project Headline 1</div>
                     <div class="font-size-18 font-weight-500 text-grey">UI & UX / Front-end</div>
@@ -109,28 +101,5 @@
         </div>
     </div>
 
-    <div class="height-500 bg-footer">
-        <div class="container-main">
-            <div class="margin-bottom-40 padding-top-80 text-white font-size-72 font-kollektif font-weight-700">Let’s Talk</div>
-            <div class="font-kollektif font-size-32 text-white margin-bottom-80"><u>hello@felicitymedia.in </u></div>
-            <div class="d-flex">
-                <div class="text-white font-kollektif margin-right-auto font-size-22">300 Broadway, Suite 23 <br>
-                    San Francisco, CA 94133</div>
-                <div class="d-flex">
-                    <div class="margin-right-52">
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Case studies</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Process</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Philosophy</a>
-                    </div>
-                    <div>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Capabilities</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Insights</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Opportunity</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
 
 @endsection

@@ -1,21 +1,19 @@
 @extends('layouts.app')
 @section('content')
-    <div class="header-landing-page bg-white">
-        <x-menu-text-black/>
-        <div class="container-main padding-top-32">
-            <div class="row justify-content-between padding-bottom-112">
-                <div class="d-inline"><img class="icon-logo" src="{{ asset('images/logo-black.png') }}" alt="felicity"></div>
-                <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/toggle-black.png') }}" width="44" height="44">
-                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close-black.png') }}" width="44" height="44">
-            </div>
-        </div>
-        <div class="header">
-            <div class="container-main padding-top-32 margin-bottom-178">
-                <div class="font-size-108 font-weight-700 font-kollektif">Let’s do this 🤝 <br> good second line.</div>
-            </div>
-        </div>
+<div class="header-landing-page">
+
+    @include('components.menu')
+    @include('layouts.__wave')
+    @include('layouts.__navigation',['dark'=>true])
         
-    </div>
+    
+</div>
+
+        <div class="header padding-header" style="height: 100vh">
+            <div class="container-main margin-bottom-178">
+                <div class="font-size-108 font-weight-700 ">Let’s do this 🤝 <br> good second line.</div>
+            </div>
+        </div>
 
     <div class="bg-dark-blue padding-top-120 padding-bottom-84">
         <div class="container-main">

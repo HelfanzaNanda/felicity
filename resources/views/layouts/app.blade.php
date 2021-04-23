@@ -14,10 +14,16 @@
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felicity</title>
+    @stack('styles')
+    <script type="text/javascript" src="{{asset('assets/gsap/gsap.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/ScrollTrigger.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/ScrollToPlugin.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/MotionPathPlugin.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('assets/gsap/CustomEase.min.js')}}"></script>
   </head>
   <body>
     @yield('content')
-
+    @include('layouts.__footer')
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -27,19 +33,37 @@
     @stack('scripts')
     <script>
       let menuActive = false;
-      $(".toogle-menu").click(function() {
+      $(".menu-btn").click(function() {
         if (!menuActive) {
             menuActive = true
-            $('.header').hide("slow")
-            $('#menu').show("slow")
-            $('.toogle-menu.open').addClass('d-none')
-            $('.toogle-menu.close').removeClass('d-none')
+            // $('.header').hide("slow")
+            gsap.to('.menu',{
+              y:0
+            })
+            console.log($('.wave-wrapper').hasClass('fixed'));
+            if(!$('.wave-wrapper').hasClass('fixed')){
+              gsap.to('.wave-wrapper',{
+                top:$(document).scrollTop()
+              })
+            }
+            $('body').css('height','100vh');
+            $('body').css('overflow','hidden');
+            $('.menu-btn').addClass('open')
+            $('.wave').addClass('big')
         }else{
             menuActive = false
-            $('.header').show("slow")
-            $('#menu').hide("slow");
-            $('.toogle-menu.open').removeClass('d-none')
-            $('.toogle-menu.close').addClass('d-none')
+            // $('.header').show("slow")
+            gsap.to('.menu',{
+              display:'block',
+              y:-900
+            })
+            gsap.to('.wave-wrapper',{
+              top:0
+            })
+            $('body').css('height','unset');
+            $('body').css('overflow','unset');
+            $('.menu-btn').removeClass('open')
+            $('.wave').removeClass('big')
         }
       });
     </script>
@@ -58,10 +82,23 @@
           loop:true,
           margin:10,
           autoplay:true,
-          autoplayTimeout:1000,
+          autoplayTimeout:8000,
           autoplayHoverPause:true
         });
       });
+     
+
+    gsap.to('.g-cursor__circle',1,{
+      scale:1.5,
+      repeat:-1,
+      ease:'bouce',
+      opacity:0,
+      yoyo:true,
+    });
+    // document.addEventListener('mouseenter', () => {
+    //   this.hideCursor = false;
+    // });
+
     </script>
   </body>
 </html>

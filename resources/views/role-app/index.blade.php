@@ -1,28 +1,25 @@
 @extends('layouts.app')
 @section('content')
-<div class="header-landing-page bg-pink">
+<div class="header-landing-page ">
     <x-menu/>
-    <div class="container-main padding-top-32">
-        <div class="row justify-content-between padding-bottom-112">
-            <div class="d-inline"><img class="icon-logo" src="{{ asset('images/logo.png') }}" alt="felicity"></div>
-            <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" width="44" height="44">
-            <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close.png') }}" width="44" height="44">
-        </div>
-    </div>
-    <div class="header">
-        <div class="container-main padding-top-32 margin-bottom-178">
-            <div class="font-kollektif line-height-86 font-weight-700 font-size-88 font-size-sm-80 text-white margin-bottom-16">Sr Data Scientist, <br> Payments</div>
-            <div class="text-grey">Bangalore, India</div>
-        </div>
-    </div>
+   
+        @include('layouts.__wave')
+    @include('layouts.__navigation')
+        
     
 </div>
+<div class="header bg-pink padding-header" style="height: 100vh">
+    <div class="container-main padding-top-32 margin-bottom-178">
+        <div class="font-kollektif line-height-86 font-weight-700 font-size-88 font-size-sm-80 text-white margin-bottom-16">Sr Data Scientist, <br> Payments</div>
+        <div class="text-grey">Bangalore, India</div>
+    </div>
+</div>
 
-<div class="padding-top-84 margin-bottom-84">
+<div class=" margin-bottom-84">
     <div class="container-main">
-        <div class="margin-top-n-165 position-relative margin-bottom-48 bg-white">
-            <div class="container-main padding-top-116">
-                <div class="d-flex nav tabs margin-bottom-80" role="tablist">
+        <div class="margin-top-n-70 position-relative margin-bottom-48 bg-white shadow">
+            <div class="p-5">
+                <div class="d-flex nav tabs mb-5" role="tablist">
                     <a class="margin-right-48 active" href="#role" data-toggle="tab">Role Overview</a>
                     <a class="" href="#app" data-toggle="tab">Application</a>
                 </div>

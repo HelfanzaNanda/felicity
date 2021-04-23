@@ -1,29 +1,27 @@
 @extends('layouts.app')
 @section('content')
-    <div class="header-landing-page bg-blue">
-        <x-menu/>
-        <div class="container-main padding-top-32 ">
-            <div class="row justify-content-between">
-                <div class="d-inline"><img class="icon-logo" src="{{ asset('images/logo.png') }}" alt="felicity"></div>
-                <img class="toogle-menu open" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/menu.png') }}" width="44" height="44">
-                <img class="toogle-menu close d-none" style="cursor: pointer; z-index: 2;" src="{{ asset('images/icons/close.png') }}" width="44" height="44">
-            </div>
-        </div>
-        <div class="header">
-            <div class="container-main padding-top-32 margin-bottom-24">
-                <div class="title-header-terms title-header-sm-terms font-size-sm-80">
-                    Terms and <br>conditions 📃
-                </div>
+<div class="header-landing-page ">
+    <x-menu/>
+   
+        @include('layouts.__wave')
+    @include('layouts.__navigation')
+        
+    
+</div>
+    <div class="header bg-blue padding-header" style="height: 100vh">
+        <div class="container-main margin-bottom-24">
+            <div class="title-header-terms ">
+                Terms and <br>conditions 📃
             </div>
         </div>
     </div>
 
-    <div class="bg-white">
+    <div class="margin-top-n-70">
         <div class="container-main">
-            <div class="panel position-relative bg-white  margin-top-n-70">
-                <div class="container-main">
-                    <div class="font-size-22 font-weight-600 padding-top-116 margin-bottom-16">Updated March 29, 2021</div>
-                    <hr class="margin-bottom-80">
+            <div class="panel position-relative bg-white shadow ">
+                <div class="p-5">
+                    <div class="font-size-22 font-weight-600  margin-bottom-16">Updated March 29, 2021</div>
+                    <hr class="mb-5">
                     <div class="font-size-28 margin-bottom-20 font-weight-700">The Challange</div>
                     <div class="margin-bottom-10 font-size-16 text-grey-dark text-justify">Unique travel experiences around the world. Whether an apartment for a night, a castle for a week or a villa for a month, Airbnb allows people to Belong Anywhere through unique travel experiences at any price point, in more than 85,000 cities and over 191 countries. We promote a culture of curiosity, humanity, and creativity through our product, brand, and, most importantly, our people.</div>
                     <div class="font-size-28 margin-bottom-20 font-weight-700">The Challange</div>
@@ -53,28 +51,5 @@
             </div>
         </div>
 
-    </div>
-    <div class="height-500 bg-footer">
-        <div class="container-main">
-            <div class="margin-bottom-40 padding-top-80 text-white font-size-72 font-kollektif font-weight-700">Let’s Talk</div>
-            <div class="font-kollektif font-size-32 text-white margin-bottom-80"><u>hello@felicitymedia.in </u></div>
-            <div class="d-flex">
-                <div class="text-white font-kollektif margin-right-auto font-size-22">300 Broadway, Suite 23 <br>
-                    San Francisco, CA 94133</div>
-                <div class="d-flex">
-                    <div class="margin-right-52">
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Case studies</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Process</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Philosophy</a>
-                    </div>
-                    <div>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Capabilities</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Insights</a>
-                        <a href="" class="d-block text-white font-kollektif font-size-16">Opportunity</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </div>
 @endsection

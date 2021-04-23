@@ -83,6 +83,9 @@
 .line-height-0{
     line-height: 0px;
 }
+.line-height-1{
+    line-height: 1;
+}
 .line-height-19{
     line-height: 19px;
 }
@@ -330,7 +333,13 @@
 
 /* container main */
 .container-main{
-    margin: 0 165px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+@media (max-width: 1440px){
+    .container-main{
+        margin: 0 165px;
+    }
 }
 
 /* background */

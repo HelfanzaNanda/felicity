@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @font-face { /*perintah untuk memanggil font eksternal*/
-    font-family: 'Kollektif'; /*memberikan nama bebas untuk font*/
-    src: url('../../assets/font/kollektif/Kollektif.ttf');/*memanggil file font eksternalnya di folder nexa*/
+    font-weight: normal;
+    font-family: 'Montserrat'; /*memberikan nama bebas untuk font*/
+    src: url('../../assets/font/Montserrat/Montserrat.ttf');/*memanggil file font eksternalnya di folder nexa*/
+}
+@font-face { /*perintah untuk memanggil font eksternal*/
+    font-weight: bold;
+    font-family: 'Montserrat'; /*memberikan nama bebas untuk font*/
+    src: url('../../assets/font/Montserrat/Montserrat-Bold.ttf');/*memanggil file font eksternalnya di folder nexa*/
 }
 
 body{
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*letter-spacing: 1px;*/
 }
 /* .form-control{
     border: none;
 } */
-
-.bg-gradient-blue-to-dark-blue{
-    /* z-index: -15; */
-    background: url("../../images/bg-gradient-blue-to-dark-blue.png");
+h1,h2,h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 .bg-header-blue{
     width: 100%;
@@ -27,19 +33,15 @@ body{
 
 }
 .icon-logo{
-    width: 80px;
-    height: 60px;
-}
-.toogle-menu{
-    width: 44px;
-    height: 44px;
+    /*width: 80px;*/
+    height: 40px;
 }
 
 .header-landing-page{
-    position: relative;
+    /*position: relative;*/
     overflow: hidden;
     width: 100%;
-    height: 822px;
+    /*height: 822px;*/
 }
 
 img.wafe{
@@ -70,30 +72,31 @@ img.wafe{
     height: 100vh;
     width: 100%;
 }
-.hero-section{
-    height: 988px;
-}
 .padding-banner{
     padding: 48px 0 48px 48px;
 }
 .img-hero{
-    height: 400px;
+    /*height: 400px;*/
     width: 100%;
-    object-fit: cover;
+    /*object-fit: cover;*/
     border-radius: 24px;
 }
 .service-section{
     height: 100%;
-    padding-bottom: 121px;
+    /*padding-bottom: 121px;*/
 }
 .team-section{
     height: 100%;
-    padding-bottom: 244px;
+    /*padding-bottom: 244px;*/
 }
 .img-team{
-    width: 450px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     border-radius: 24px;
+}
+.team-card{
+    width: 360px;
+
 }
 
 .banner{
@@ -103,39 +106,36 @@ img.wafe{
 }
 
 .banner-section{
-    padding-bottom: 146px;
+    /*padding-bottom: 146px;*/
 }
 /* Start Our Work */
 .our-work{
-    padding-top: 146px;
-    font-size: 50px;
-    color: #fff;
+    /*padding-top: 146px;*/
+    /*color: #fff;*/
 }
 .img-phone{
-    width: 380px;
-    height: 420px;
-    margin-left: 15px;
+    width: 100%;
+}
+.circle1-work, .circle2-work, .circle3-work img{
+    width: 100%;
+}
+.circle1-work, .circle2-work, .circle3-work{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 360px;
+    height: 360px;
+    text-align: center;
+    border-radius: 100%;
 }
 .circle1-work{
-    width: 420px;
-    height: 420px;
     background: #FFC300;
-    border-radius: 240px;
-    margin-top: 80px;
 }
 .circle2-work{
-    width: 420px;
-    height: 420px;
     background: #6859DE;
-    border-radius: 240px;
-    margin-top: 80px;
 }
 .circle3-work{
-    width: 420px;
-    height: 420px;
     background: #E84045;
-    border-radius: 240px;
-    margin-top: 80px;
 }
 .img-our-work{
     margin-top: 39px;
@@ -144,25 +144,24 @@ img.wafe{
     margin-bottom: 41px;
 }
 .title-desc-our-work{
-    margin-top: 90px;
+    margin-top: 50px;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
     color: #fff;
 }
 .title2-desc-our-work{
     font-size: 22px;
-    margin-top: 17px;
+    margin-top: 15px;
     color: #fff;
 }
-.desc-our-work{
-    font-family: Montserrat;
-    font-style: normal;
+.desc-our-work{*/
+    /*font-style: normal;*/
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     color: #C4C4C4;
-    margin-top: 24px;
-    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 .find-more{
     margin-top: 40px;
@@ -182,43 +181,38 @@ img.wafe{
 
 /* Start Insights*/
 .insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     color: #FFFFFF;
     margin-bottom: 80px;
 }
-.imamge-insights{
-    width: 100%;
-    height: 450px;
-}
 .img-insights{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    /*height: 300px;*/
     border-radius: 20px;
 }
 .title-insights{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
-    margin-top: 40px;
+    margin-top: 20px;
     color: #FFFFFF;
 }
-.emoji-hand{
-    width: 24px;
-    height: 24px;
+.insight-icon, .emoji-hand{
+    width: 14px;
+    height: 14px;
 }
-.emoji-text{
-    font-family: Montserrat;
+.emoji-text{*/
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    margin-left: 9.5px;
-    margin-right: 34px;
+    font-size: 12px;
+    /*line-height: 20px;*/
+    margin-left: 6.5px;
+    white-space: nowrap;
+    /*margin-right: 34px;*/
     color: #E8E7E7;
 }
 /* End Insights*/
@@ -232,7 +226,7 @@ footer{
     color: #fff;
 }
 .title-footer{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -241,7 +235,7 @@ footer{
     padding-left: 165px;
 }
 .email-footer{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
@@ -251,7 +245,7 @@ footer{
     padding-left: 165px;
 }
 .address-footer{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -262,7 +256,7 @@ footer{
     padding-bottom: 124px;
 }
 .menu-footer{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -274,7 +268,7 @@ footer{
 
 /* Start Case Study Page */
 .title-study-page{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 108px;
@@ -284,16 +278,16 @@ footer{
 }
 .rectangle{
     position: relative;
-    width: 300px;
+    width: 100%;
     height: 300px;
     border-radius: 16px;
     overflow: hidden;
 }
 .rectangle img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-12%);
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    transform: translateY(-10px);
 }
 
 .img-case-study-solo{
@@ -306,7 +300,6 @@ footer{
     z-index: 100;
 }
 .title-project{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
@@ -320,7 +313,7 @@ footer{
 
 /* Start Case Study Solo */
 .title-header-solo{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 108px;
@@ -328,7 +321,7 @@ footer{
     color: #FFFFFF;
 }
 .text-label{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -336,7 +329,7 @@ footer{
     color: #C4C4C4;
 }
 .client-name{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -351,7 +344,6 @@ footer{
     height: auto;
 }
 .title-design{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
@@ -363,7 +355,7 @@ footer{
 
 /* Start Insights Page */
 .title-insights-page{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -373,16 +365,16 @@ footer{
 
 }
 .desc-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 21px;
     font-feature-settings: 'liga' off;
     color: #E8E7E7;
 }
 .date-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -391,7 +383,6 @@ footer{
     float: right;
 }
 .read-more-insights{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
@@ -407,54 +398,50 @@ footer{
     background: #FFFFFF;
 }
 .title1-detail-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 48px;
-    color: #202020;
-    padding-top: 80px;
-    margin-bottom: 55px;
+    color: #232323;
+    /*padding-top: 80px;*/
+    /*margin-bottom: 55px;/*/
 }
 .card-detail-insights{
     background: #fff;
 }
 .creator-name{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    color: #202020;
+    color: #232323;
     padding-top: 24px;
 }
 .created-at-detail{
-    font-family: Kollektif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
     line-height: 22px;
-    color: #202020;
+    color: #232323;
     padding-top: 24px;
 }
 .line-detail{
     border-bottom: 1px solid #E8E7E7;
-    width: 695px;
+    width: 100%;
 }
 .img-carrers{
     width: 100%;
-    height: 450px;
+    /*height: 450px;*/
 }
 .img-study-solo{
     height: 540px;
     width: 540px;
 }
 .img-capabilities{
-    width: 403px;
-    height: 538px;
+    /*width: 403px;*/
+    height: calc(100vh - 200px);
 }
 .desc-detail-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -462,43 +449,43 @@ footer{
     color: #718096;
 }
 .title2-detail-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
-    color: #202020;
+    color: #232323;
     margin-left: 65px;
 }
 .title3-detail-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    color: #202020;
+    color: #232323;
 }
 .title4-detail-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
-    color: #202020;
+    color: #232323;
     padding-top: 16px;
 }
 .title5-detail-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    color: #202020;
+    color: #232323;
 }
 .date-detail-insights{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    color: #202020;
+    color: #232323;
     padding-top: 16px;
     margin-left: 20px;
 }
@@ -506,7 +493,7 @@ footer{
 
 /* Start Careers Page */
 .title-header-careers{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 108px;
@@ -515,7 +502,6 @@ footer{
     color: #1A1A1A;
 }
 .text-label-careers{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -523,7 +509,6 @@ footer{
     color: #C4C4C4;
 }
 .text-date{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -533,7 +518,6 @@ footer{
     color: #FFFFFF;
 }
 .desc-careers{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -541,7 +525,6 @@ footer{
     color: #FFFFFF;
 }
 .title-careers{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
@@ -549,24 +532,22 @@ footer{
     color: #FFFFFF;
 }
 .text-departements{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     font-feature-settings: 'liga' off;
     color: #FFFFFF;
-    margin-bottom: 64px;
+    /*margin-bottom: 64px;*/
 }
 .line-vertical{
     border-top: none;
     border-bottom: none;
     border-right: none;
     border-left: 1px solid #E8E7E7;
-    height: 1000px;
+    height: 400px;
 }
 .text-company{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -578,27 +559,25 @@ footer{
 
 /* Start Privacy Policy Page */
 .title-header-privacy-policy{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 108px;
     line-height: 110%;
     text-align: center;
     color: #1A1A1A;
-    padding-top: 112px;
+    /*padding-top: 112px;*/
 }
 .updated-at-privacy{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #1A1A1A;
-    padding-top: 112px;
+    /*padding-top: 112px;*/
     margin-left: 65px;
 }
 .title-desc-privacy{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -607,7 +586,6 @@ footer{
     margin-left: 66px;
 }
 .desc-privacy{
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -621,14 +599,14 @@ footer{
 
 /* Start Terms and Conditions */
 .title-header-terms{
-    font-family: Kollektif;
+    font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
     font-size: 108px;
     line-height: 110%;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 112px;
+    /*padding-top: 112px;*/
 }
 /* End Terms and Conditions */
 
@@ -703,18 +681,17 @@ footer{
 }
 
 .menu {
-    display: none;
-    margin-top: 165px;
-    position: absolute;
-    z-index: 100;
+    /*padding-top: 165px;*/
+    position: fixed;
     width: 100%;
+
 }
 
 .header{
-    -moz-animation-delay: 3.5s;
+/*    -moz-animation-delay: 3.5s;
     -webkit-animation-delay: 3.5s;
     -o-animation-delay: 3.5s;
-    animation-delay: 3.5s;
+    animation-delay: 3.5s;*/
 }
 
 .menu.active {
@@ -791,3 +768,207 @@ img.wafe.our-proccess{
 .btn-collapse:hover{
     text-decoration: none;
 }
+
+    .wave-wrapper{
+        position: absolute;
+        height: 100vh;
+        left: 0;
+        width: 100%;
+        z-index: 17;
+        pointer-events: none;
+    }
+    .wave{
+        transition: all .5s ease-in-out;
+    }
+    .wave > svg{
+        transition: width 2s;
+    }
+    .wave1{
+        position: absolute;
+        right: 0%;
+        top: -20%;
+        transform: rotate(45deg) scale(2);
+    }
+    .wave1 > svg{
+        opacity: .2;
+        animation: waves1 linear 20s infinite;
+        width: 200%;
+    }
+    .wave2{
+        position: absolute;
+        right: 5%;
+        top:-10%;
+        transform: rotate(45deg) scale(3);
+    }
+
+    
+    .wave2 > svg{
+        opacity: .2;
+        animation: waves1 linear 10s infinite;
+        width: 200%;
+    }
+    
+
+    .wave2.big{
+        right: 10%;
+        top: -10%;
+        transform: rotate(20deg) scale(3);
+    }
+    .wave1.big{
+        top: 10%;
+        transform: rotate(50deg) scale(2);
+    }
+    
+
+    @keyframes waves1{
+        0% {
+            transform: translateX(0);
+        }
+        100%{
+            transform: translate(-50%);
+        }
+    }
+
+
+.menu-btn {
+  position: relative;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  /* border: 3px solid #fff; */
+}
+/*.menu-btn__burger {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}*/
+
+.menu-btn__burger.dark::before,
+.menu-btn__burger.dark::after {
+    background-color: black;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 4px;
+  background: #fff;
+  /*border-radius: 5px;*/
+  box-shadow: 0 2px 5px rgba(255,101,47,.2);
+  transition: all .5s ease-in-out;
+}
+.menu-btn__burger::before {
+  transform: translateY(-5px) ;
+}
+.menu-btn__burger::after {
+  transform: translateY(5px) translateX(5px);
+}
+
+/* ANIMATION */
+/*.menu-btn.open .menu-btn__burger {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}*/
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) ;
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translateX(0px);
+}
+
+
+@media(max-width: 1440px){
+    .menu{
+        /*transform: scale(.8);*/
+    }
+}
+
+.navigation-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 20;
+}
+.has-header{
+
+}
+.padding-header{
+    padding-top: 200px;
+}
+.footer-section{
+    height: 100vh;
+}
+
+    .fixed-header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 10%;
+    }
+
+    .g-cursor_hide {
+      opacity: 0;
+      transition: width 0.6s ease, height 0.6s ease, opacity 0.6s ease;
+    }
+
+    .g-cursor__circle {
+      pointer-events: none;
+      user-select: none;
+      top: 0;
+      left: 0;
+      position: fixed;
+      width: 30px;
+      height: 30px;
+      border: 2px solid grey;
+      border-radius: 100%;
+      z-index: 5555;
+      backface-visibility: hidden;
+      transition: opacity 0.6s ease;
+    }
+
+    .g-cursor__point {
+      top: 0;
+      left: 0;
+      position: fixed;
+      width: 10px;
+      height: 10px;
+      pointer-events: none;
+      user-select: none;
+      border-radius: 100%;
+      background: grey;
+      z-index: 55555555;
+      backface-visibility: hidden;
+      will-change: transform;
+    }
+
+    .g-cursor:hover .g-cursor__circle {
+        opacity: 0;
+        width: 60px;
+        height: 60px;
+        transition: width 0.6s ease, height 0.6s ease, opacity 0.6s ease;
+      
+    }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: #3826c0;
+  }
