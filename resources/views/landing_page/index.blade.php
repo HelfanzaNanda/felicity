@@ -444,7 +444,7 @@
             trigger:".header",
             start:"bottom top",
             scrub:1,
-            markers:true,
+            // markers:true,
         }
     })
 
@@ -517,7 +517,7 @@
                         start:"top bottom",
                         end:"top 20%",
                         scrub:true,
-                        markers:true,
+                        // markers:true,
                     }
                 });
             // }, 
@@ -532,7 +532,7 @@
         ease:"slow",
         scrollTrigger:{
             trigger:".banner-section",
-            markers:true,
+            // markers:true,
             start:"top bottom",
             end:"top 90%",
             scrub:true,
@@ -552,7 +552,7 @@
                 trigger:'.section-our-work',
                 start:'top top',
                 scrub:true,
-                markers:true,
+                // markers:true,
                 pin:'.section-our-work, .our-work-item',
                 snap: {
                   snapTo: 1 / ( panels.length - 1 ),
