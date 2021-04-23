@@ -1,4 +1,14 @@
 @media (max-width: 768px) {
+    .img-project{
+
+    }
+    .circle1-work, .circle2-work,.circle3-work{
+        height: 240px!important;
+        width: 240px!important;
+    }
+    .team-card{
+        width: 100%;
+    }
     .bg-gradient-blue-to-dark-blue{
         width: 100%;
     }
@@ -10,9 +20,6 @@
     }
     .container-main{
         margin: 0 15px
-    }
-    .padding-top-32{
-        padding: 10px;
     }
     .padding-bottom-112{
         padding-bottom: 32px;
@@ -48,11 +55,11 @@
         border-radius: 240px;
         margin-top: 80px;
     }
-    .img-phone{
+    /*.img-phone{
         width: 140px;
         height: 210px;
         align-items: center;
-    }
+    }*/
     .margin-bottom-178 {
         margin-bottom: 130px !important;
     }
@@ -159,8 +166,9 @@
     .height-sm-auto{
         height: auto !important;
     }
-    .menu{
-        margin-top: 70px;
+    .menu {
+        padding-top: 100px;
+
     }
     .header-landing-page{
         /*width: auto;*/
@@ -188,6 +196,7 @@
         padding-top: 0;
         padding-bottom: 10px;
     }
+    /*
     .circle1-work, .circle2-work, .circle3-work{
         width: 100%;
         height: auto;
@@ -196,7 +205,7 @@
     .circle1-work img, .circle2-work img, .circle3-work img{
         width: 100%;
         height: 100%;
-    }
+    }*/
     .title-desc-our-work{
         margin-top: 0;
     }

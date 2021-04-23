@@ -20,6 +20,7 @@
     width: 300px;
     margin-right: 40px;
 }
+
 .indicator {
     text-align: center;
     position: fixed;
@@ -29,6 +30,13 @@
     font-size: 1rem;
     color: white;
     opacity: 0;
+}
+@media(max-width: 768px){
+    .indicator{
+        left: 50%!important;
+        
+        /*transform: translate3d(50%, 0, 0)!important;*/
+    }
 }
 .indicator >span {
         display: block;
@@ -79,7 +87,7 @@
         </div>
     </div>
     <div class="bg-dark-blue">
-        <div class="panel hero-section section section-1 bg-dark-blue" >
+        <div class="panel hero-section section section-1 bg-dark-blue" style="height: 100vh">
             <div class="container-main fadeout" >
                 <div class="mb-5">
                     <div class="row">
@@ -104,34 +112,45 @@
             </div>
         </div>
 
-        <div class="panel service-section section section-2 bg-dark-blue padding-header" style="min-height: 100vh">
+        <div class="panel service-section section section-2 bg-dark-blue " style="min-height: 100vh">
             <div class="container-main fadeout">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-4">
-                            <a href="#design"   class="btn-collapse design text-white font-size-26 font-weight-700">✏️  Design &nbsp; 
-                             
-                            </a>
-                            <div class="expand-service text-grey" id="design" >Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                    <div class="col-md-6 d-md-none mb-5">
+                        <div class="font-size-50 text-white margin-bottom-40">we provide various services</div>
+                        <div class="text-grey margin-bottom-40">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
+                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
                         </div>
-                        <div class="mb-4">
-                            <a  href="#motion" class="btn-collapse text-white font-size-26 font-weight-700">🎥  Motion & Audio &nbsp; 
-                            </a>
-                            <div class="expand-service text-grey" id="motion">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
-                        </div>
-                        <div class="mb-4">
-                            <a  href="#marketing" class="btn-collapse text-white font-size-26 font-weight-700">📢  Marketing &nbsp; 
-                            </a>
-                            <div class="expand-service text-grey" id="marketing">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
-                        </div>
-                        <div class="mb-4">
-                            <a href="#growth" class="btn-collapse text-white font-size-26 font-weight-700">🎯  Felicity Growth &nbsp; 
-                            </a>
-                            <div class="expand-service text-grey" id="growth">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
-                        </div>
-
+                        <a href="{{url('capabilities')}}" class="find-more">
+                            Find Out more
+                        </a>
+                        <div class="border-find"></div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 ">
+                        <div class="expand-section">
+                            <div class="mb-4">
+                                <a href="#design"   class="btn-collapse design text-white font-size-26 font-weight-700">✏️  Design &nbsp; 
+                                 
+                                </a>
+                                <div class="expand-service text-grey" id="design" >Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            </div>
+                            <div class="mb-4">
+                                <a  href="#motion" class="btn-collapse text-white font-size-26 font-weight-700">🎥  Motion & Audio &nbsp; 
+                                </a>
+                                <div class="expand-service text-grey" id="motion">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            </div>
+                            <div class="mb-4">
+                                <a  href="#marketing" class="btn-collapse text-white font-size-26 font-weight-700">📢  Marketing &nbsp; 
+                                </a>
+                                <div class="expand-service text-grey" id="marketing">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            </div>
+                            <div class="mb-4">
+                                <a href="#growth" class="btn-collapse text-white font-size-26 font-weight-700">🎯  Felicity Growth &nbsp; 
+                                </a>
+                                <div class="expand-service text-grey" id="growth">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
                         <div class="font-size-50 text-white margin-bottom-40">we provide various services</div>
                         <div class="text-grey margin-bottom-40">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC <br>
                             "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
@@ -236,7 +255,7 @@
         
 
         <!-- Start Our Work -->
-        <div class="panel section bg-dark-blue section-our-work" style="height: 100vh">
+        <div class="panel section bg-dark-blue section-our-work" style="min-height: 100vh">
             <div class="our-work">
                 <div class="container-main">
                     <h5 class="section-title">our work </h5>
@@ -247,11 +266,12 @@
                     <div class="item">
                         <div class="container-main">
                             <div class="row justify-content-between margin-bottom-sm-10">
-                                <div class="col-md-6">
+                                <div class="col-md-6 mb-2">
                                     <div class="circle1-work">
-                                        <img src="{{ asset('images/phone/phone.png') }}" alt="" class="img-phone">
+                                        <img src="{{ asset('images/phone/phone.png') }}" alt="" class="img-phone img-project">
                                     </div>
                                 </div>
+
                                 <div class="col-md-6">
                                     <div class="title-desc-our-work">
                                         Big Project Headline 1
@@ -278,6 +298,13 @@
                     <div class="item">
                         <div class="container-main">
                             <div class="row justify-content-between margin-bottom-sm-10">
+
+                                <div class="col-md-6 mb-2">
+                                    <div class="circle2-work">
+                                        <img src="{{ asset('images/phone/phone.png') }}" alt="" class="img-phone">
+                                    </div>
+                                </div>
+
                                 <div class="col-md-6">
                                     <div class="title-desc-our-work">
                                         Big Project Headline 1
@@ -297,11 +324,6 @@
                                         Find Out More
                                     </div>
                                     <div class="border-find"></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="circle2-work">
-                                        <img src="{{ asset('images/phone/phone.png') }}" alt="" class="img-phone">
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -448,63 +470,102 @@
         }
     })
 
+console.log(window.innerHeight);
     tl = gsap.timeline({
         scrollTrigger:{
             trigger:'.section-1',
             pin:'.section-1',
-            scrub:0.5,
-            end:"+=200%"
-            // pinSpacing:false,
+            scrub:true,
+            start:"top top",
+            markers:true,
+            onEnter:()=>{
+                console.log(window.innerHeight, document.scrollTop)
+            }
         }
     });
     tl.from('.section-1-title',{
         opacity:0,
         scale:.5,
         ease:'bounce',
-        duration:2,
+        // duration:2,
     })
     tl.from('.section-1-desc',{
         delay:1,
         y:"200%",
         ease:'power4',
-        duration:2,
+        // duration:2,
     })
     tl.from('.section-1-img',{
         opacity:0,
         x:"110%",
         ease:'power1',
-        duration:5
+        // duration:5
     })
 
-    tl.to('.section-1 .container-main',{
-        y:"-100px",
-        duration:10
-    })
+    // tl.to('.section-1 .container-main',{
+    //     y:"-100px",
+    //     // duration:10
+    // })
+    ScrollTrigger.matchMedia({
+        "(max-width: 768px)": function() {
+            gsap.set(".expand-section",{height:"100vh",paddingTop:"100px"})
+            tl = gsap.timeline({
+                scrollTrigger:{
+                    trigger:'.expand-section',
+                    pin:'.expand-section',
+                    scrub:0.5,
+                    // pinSpacing:false,
+                }
+            });
+            gsap.utils.toArray(".team-card").forEach(function(elem,i) {
+                gsap.fromTo(elem, {x: (i>1)?"100%":"-100%", autoAlpha: 0}, {
+                    duration: 1.25, 
+                    x: 0,
+                    y: 0, 
+                    autoAlpha: 1, 
+                    ease: "expo", 
+                    overwrite: "auto",
+                    scrollTrigger:{
+                        trigger:elem,
+                        start:"top center",
+                        end:"top top",
+                        scrub:true,
+                        // markers:true,
+                    }
+                });
+            })
+            gsap.set('.our-work-item',{height:"100vh"});
+            const panels = gsap.utils.toArray(".our-work-item .item");
+            const panelsContainer = document.querySelector(".our-work-item");
+            panels.forEach((e,i)=>{
+                gsap.set(e, {y:(-100*i)+"%",x:(100*i)+"%",width: document.querySelector(".our-work-wraper").offsetWidth});
+                gsap.to(e,{
+                    xPercent:-100,
+                    ease:"sine",
+                    scrollTrigger:{
+                        trigger:'.our-work-item',
+                        start:'top top',
+                        scrub:true,
+                        pin:'.our-work-item',
+                        snap: {
+                          snapTo: 1 / ( panels.length - 1 ),
+                        },
+                        end: () => "+="+(panelsContainer.offsetWidth )
+                    }
+                })
+            })
 
-    tl = gsap.timeline({
-        scrollTrigger:{
-            trigger:'.section-2',
-            pin:'.section-2',
-            scrub:0.5,
-            // pinSpacing:false,
-        }
-    });
-    gsap.utils.toArray(".expand-service").forEach(function(elem,i) {
-        tl.from(elem,{
-            height:0,
-            opacity:0
-        }).to(elem,{
-            delay:1,
-            height:0,
-            opacity:0
-        })
-    });
-    gsap.utils.toArray(".team-card").forEach(function(elem,i) {
-        // gsap.set(elem, {autoAlpha: 0});
-        // ScrollTrigger.create({
-            // trigger: elem,
-            // onEnter: function() { 
-                console.log(elem,i);
+        },
+        "(min-width: 769px)":function(){
+            tl = gsap.timeline({
+                scrollTrigger:{
+                    trigger:'.section-2',
+                    pin:'.section-2',
+                    scrub:0.5,
+                    // pinSpacing:false,
+                }
+            });
+            gsap.utils.toArray(".team-card").forEach(function(elem,i) {
                 gsap.fromTo(elem, {x: (i>1)?"100%":"-100%", autoAlpha: 0}, {
                     duration: 1.25, 
                     x: 0,
@@ -520,11 +581,41 @@
                         // markers:true,
                     }
                 });
-            // }, 
-            // onEnterBack: function() { animateFrom(elem, -1) },
-            // onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
-        // });
+            })
+            const panels = gsap.utils.toArray(".our-work-item .item");
+            const panelsContainer = document.querySelector(".our-work-item");
+            panels.forEach((e,i)=>{
+                gsap.set(e, {y:(-100*i)+"%",x:(100*i)+"%",width: document.querySelector(".our-work-wraper").offsetWidth});
+                gsap.to(e,{
+                    xPercent:-100,
+                    ease:"sine",
+                    scrollTrigger:{
+                        trigger:'.section-our-work',
+                        start:'top top',
+                        scrub:true,
+                        // markers:true,
+                        pin:'.section-our-work, .our-work-item',
+                        snap: {
+                          snapTo: 1 / ( panels.length - 1 ),
+                          // duration: {min: 0.1, max: 0.1}
+                        },
+                        end: () => "+="+(panelsContainer.offsetWidth )
+                    }
+                })
+            })
+        }
     })
+    
+    gsap.utils.toArray(".expand-service").forEach(function(elem,i) {
+        tl.from(elem,{
+            height:0,
+            opacity:0
+        }).to(elem,{
+            delay:1,
+            height:0,
+            opacity:0
+        })
+    });
 
     gsap.from('.banner-section',{
         y:"100%",
@@ -539,29 +630,7 @@
         
         }
     })
-    const panels = gsap.utils.toArray(".our-work-item .item");
-    const panelsContainer = document.querySelector(".our-work-item");
-    // alert(panelsContainer.offsetWidth);
-    console.log(panels);
-    panels.forEach((e,i)=>{
-        gsap.set(e, {y:(-100*i)+"%",x:(100*i)+"%",width: document.querySelector(".our-work-wraper").offsetWidth});
-        gsap.to(e,{
-            xPercent:-100,
-            ease:"sine",
-            scrollTrigger:{
-                trigger:'.section-our-work',
-                start:'top top',
-                scrub:true,
-                // markers:true,
-                pin:'.section-our-work, .our-work-item',
-                snap: {
-                  snapTo: 1 / ( panels.length - 1 ),
-                  // duration: {min: 0.1, max: 0.1}
-                },
-                end: () => "+="+(panelsContainer.offsetWidth )
-            }
-        })
-    })
+    
     
     gsap.timeline({
         scrollTrigger:{
